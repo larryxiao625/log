@@ -1,0 +1,439 @@
+--------- beginning of /dev/log/main
+E/AudioFlinger(23487): no wake lock to update!
+E/dalvikvm(23547): outsSize (18) > registersSize (11)
+E/dalvikvm(23547): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(23547): Swap of section type 2001 failed
+E/dalvikvm(23547): ERROR: Byte swap + verify failed
+E/dalvikvm(23547): Optimization failed
+E/dalvikvm(23486): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(23486): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(23486): VM aborting
+F/libc    (23486): Fatal signal 6 (SIGABRT) at 0x00005bbe (code=-6), thread 23486 (zygote)
+E/MediaPlayerFactory(23720): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(23720): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/dalvikvm(23790): outsSize (18) > registersSize (11)
+E/dalvikvm(23790): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(23790): Swap of section type 2001 failed
+E/dalvikvm(23790): ERROR: Byte swap + verify failed
+E/dalvikvm(23790): Optimization failed
+E/dalvikvm(23719): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(23719): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(23719): VM aborting
+F/libc    (23719): Fatal signal 6 (SIGABRT) at 0x00005ca7 (code=-6), thread 23719 (zygote)
+E/MediaPlayerFactory(23967): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(23967): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(23967): no wake lock to update!
+E/dalvikvm(24044): outsSize (18) > registersSize (11)
+E/dalvikvm(24044): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(24044): Swap of section type 2001 failed
+E/dalvikvm(24044): ERROR: Byte swap + verify failed
+E/dalvikvm(24044): Optimization failed
+E/dalvikvm(23966): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(23966): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(23966): VM aborting
+F/libc    (23966): Fatal signal 6 (SIGABRT) at 0x00005d9e (code=-6), thread 23966 (zygote)
+E/MediaPlayerFactory(24223): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(24223): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(24223): no wake lock to update!
+E/dalvikvm(24282): outsSize (18) > registersSize (11)
+E/dalvikvm(24282): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(24282): Swap of section type 2001 failed
+E/dalvikvm(24282): ERROR: Byte swap + verify failed
+E/dalvikvm(24282): Optimization failed
+E/dalvikvm(24222): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(24222): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(24222): VM aborting
+F/libc    (24222): Fatal signal 6 (SIGABRT) at 0x00005e9e (code=-6), thread 24222 (zygote)
+E/MediaPlayerFactory(24465): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(24465): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(24465): no wake lock to update!
+E/dalvikvm(24505): outsSize (18) > registersSize (11)
+E/dalvikvm(24505): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(24505): Swap of section type 2001 failed
+E/dalvikvm(24505): ERROR: Byte swap + verify failed
+E/dalvikvm(24505): Optimization failed
+E/dalvikvm(24464): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(24464): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(24464): VM aborting
+F/libc    (24464): Fatal signal 6 (SIGABRT) at 0x00005f90 (code=-6), thread 24464 (zygote)
+E/MediaPlayerFactory(24685): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(24685): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(24685): no wake lock to update!
+E/dalvikvm(24748): outsSize (18) > registersSize (11)
+E/dalvikvm(24748): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(24748): Swap of section type 2001 failed
+E/dalvikvm(24748): ERROR: Byte swap + verify failed
+E/dalvikvm(24748): Optimization failed
+E/dalvikvm(24684): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(24684): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(24684): VM aborting
+F/libc    (24684): Fatal signal 6 (SIGABRT) at 0x0000606c (code=-6), thread 24684 (zygote)
+E/MediaPlayerFactory(24904): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(24904): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(24904): no wake lock to update!
+E/dalvikvm(24978): outsSize (18) > registersSize (11)
+E/dalvikvm(24978): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(24978): Swap of section type 2001 failed
+E/dalvikvm(24978): ERROR: Byte swap + verify failed
+E/dalvikvm(24978): Optimization failed
+E/dalvikvm(24903): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(24903): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(24903): VM aborting
+F/libc    (24903): Fatal signal 6 (SIGABRT) at 0x00006147 (code=-6), thread 24903 (zygote)
+E/MediaPlayerFactory(25158): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(25158): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(25158): no wake lock to update!
+E/dalvikvm(25240): outsSize (18) > registersSize (11)
+E/dalvikvm(25240): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(25240): Swap of section type 2001 failed
+E/dalvikvm(25240): ERROR: Byte swap + verify failed
+E/dalvikvm(25240): Optimization failed
+E/dalvikvm(25157): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(25157): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(25157): VM aborting
+F/libc    (25157): Fatal signal 6 (SIGABRT) at 0x00006245 (code=-6), thread 25157 (zygote)
+E/MediaPlayerFactory(25413): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(25413): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/dalvikvm(25461): outsSize (18) > registersSize (11)
+E/dalvikvm(25461): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(25461): Swap of section type 2001 failed
+E/dalvikvm(25461): ERROR: Byte swap + verify failed
+E/dalvikvm(25461): Optimization failed
+E/dalvikvm(25412): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(25412): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(25412): VM aborting
+F/libc    (25412): Fatal signal 6 (SIGABRT) at 0x00006344 (code=-6), thread 25412 (zygote)
+E/MediaPlayerFactory(25649): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(25649): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(25649): no wake lock to update!
+E/dalvikvm(25688): outsSize (18) > registersSize (11)
+E/dalvikvm(25688): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(25688): Swap of section type 2001 failed
+E/dalvikvm(25688): ERROR: Byte swap + verify failed
+E/dalvikvm(25688): Optimization failed
+E/dalvikvm(25648): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(25648): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(25648): VM aborting
+F/libc    (25648): Fatal signal 6 (SIGABRT) at 0x00006430 (code=-6), thread 25648 (zygote)
+E/MediaPlayerFactory(25886): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(25886): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(25886): no wake lock to update!
+E/dalvikvm(25968): outsSize (18) > registersSize (11)
+E/dalvikvm(25968): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(25968): Swap of section type 2001 failed
+E/dalvikvm(25968): ERROR: Byte swap + verify failed
+E/dalvikvm(25968): Optimization failed
+E/dalvikvm(25885): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(25885): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(25885): VM aborting
+F/libc    (25885): Fatal signal 6 (SIGABRT) at 0x0000651d (code=-6), thread 25885 (zygote)
+E/MediaPlayerFactory(26140): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(26140): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(26140): no wake lock to update!
+E/dalvikvm(26223): outsSize (18) > registersSize (11)
+E/dalvikvm(26223): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(26223): Swap of section type 2001 failed
+E/dalvikvm(26223): ERROR: Byte swap + verify failed
+E/dalvikvm(26223): Optimization failed
+E/dalvikvm(26139): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(26139): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(26139): VM aborting
+F/libc    (26139): Fatal signal 6 (SIGABRT) at 0x0000661b (code=-6), thread 26139 (zygote)
+E/MediaPlayerFactory(26403): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(26403): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(26403): no wake lock to update!
+E/dalvikvm(26474): outsSize (18) > registersSize (11)
+E/dalvikvm(26474): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(26474): Swap of section type 2001 failed
+E/dalvikvm(26474): ERROR: Byte swap + verify failed
+E/dalvikvm(26474): Optimization failed
+E/dalvikvm(26402): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(26402): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(26402): VM aborting
+F/libc    (26402): Fatal signal 6 (SIGABRT) at 0x00006722 (code=-6), thread 26402 (zygote)
+E/MediaPlayerFactory(26645): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(26645): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(26645): no wake lock to update!
+E/dalvikvm(26724): outsSize (18) > registersSize (11)
+E/dalvikvm(26724): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(26724): Swap of section type 2001 failed
+E/dalvikvm(26724): ERROR: Byte swap + verify failed
+E/dalvikvm(26724): Optimization failed
+E/dalvikvm(26644): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(26644): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(26644): VM aborting
+F/libc    (26644): Fatal signal 6 (SIGABRT) at 0x00006814 (code=-6), thread 26644 (zygote)
+E/MediaPlayerFactory(26900): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(26900): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(26900): no wake lock to update!
+E/dalvikvm(26954): outsSize (18) > registersSize (11)
+E/dalvikvm(26954): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(26954): Swap of section type 2001 failed
+E/dalvikvm(26954): ERROR: Byte swap + verify failed
+E/dalvikvm(26954): Optimization failed
+E/dalvikvm(26899): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(26899): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(26899): VM aborting
+F/libc    (26899): Fatal signal 6 (SIGABRT) at 0x00006913 (code=-6), thread 26899 (zygote)
+E/MediaPlayerFactory(27132): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(27132): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(27132): no wake lock to update!
+E/dalvikvm(27219): outsSize (18) > registersSize (11)
+E/dalvikvm(27219): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(27219): Swap of section type 2001 failed
+E/dalvikvm(27219): ERROR: Byte swap + verify failed
+E/dalvikvm(27219): Optimization failed
+E/dalvikvm(27131): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(27131): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(27131): VM aborting
+F/libc    (27131): Fatal signal 6 (SIGABRT) at 0x000069fb (code=-6), thread 27131 (zygote)
+E/MediaPlayerFactory(27392): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(27392): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(27392): no wake lock to update!
+E/dalvikvm(27474): outsSize (18) > registersSize (11)
+E/dalvikvm(27474): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(27474): Swap of section type 2001 failed
+E/dalvikvm(27474): ERROR: Byte swap + verify failed
+E/dalvikvm(27474): Optimization failed
+E/dalvikvm(27391): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(27391): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(27391): VM aborting
+F/libc    (27391): Fatal signal 6 (SIGABRT) at 0x00006aff (code=-6), thread 27391 (zygote)
+E/MediaPlayerFactory(27648): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(27648): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(27648): no wake lock to update!
+E/dalvikvm(27717): outsSize (18) > registersSize (11)
+E/dalvikvm(27717): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(27717): Swap of section type 2001 failed
+E/dalvikvm(27717): ERROR: Byte swap + verify failed
+E/dalvikvm(27717): Optimization failed
+E/dalvikvm(27647): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(27647): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(27647): VM aborting
+F/libc    (27647): Fatal signal 6 (SIGABRT) at 0x00006bff (code=-6), thread 27647 (zygote)
+E/MediaPlayerFactory(27908): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(27908): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/dalvikvm(27967): outsSize (18) > registersSize (11)
+E/dalvikvm(27967): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(27967): Swap of section type 2001 failed
+E/dalvikvm(27967): ERROR: Byte swap + verify failed
+E/dalvikvm(27967): Optimization failed
+E/dalvikvm(27907): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(27907): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(27907): VM aborting
+F/libc    (27907): Fatal signal 6 (SIGABRT) at 0x00006d03 (code=-6), thread 27907 (zygote)
+E/MediaPlayerFactory(28159): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(28159): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(28159): no wake lock to update!
+E/dalvikvm(28203): outsSize (18) > registersSize (11)
+E/dalvikvm(28203): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(28203): Swap of section type 2001 failed
+E/dalvikvm(28203): ERROR: Byte swap + verify failed
+E/dalvikvm(28203): Optimization failed
+E/dalvikvm(28158): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(28158): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(28158): VM aborting
+F/libc    (28158): Fatal signal 6 (SIGABRT) at 0x00006dfe (code=-6), thread 28158 (zygote)
+E/MediaPlayerFactory(28384): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(28384): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(28384): no wake lock to update!
+E/dalvikvm(28426): outsSize (18) > registersSize (11)
+E/dalvikvm(28426): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(28426): Swap of section type 2001 failed
+E/dalvikvm(28426): ERROR: Byte swap + verify failed
+E/dalvikvm(28426): Optimization failed
+E/dalvikvm(28383): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(28383): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(28383): VM aborting
+F/libc    (28383): Fatal signal 6 (SIGABRT) at 0x00006edf (code=-6), thread 28383 (zygote)
+E/MediaPlayerFactory(28594): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(28594): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(28594): no wake lock to update!
+E/dalvikvm(28665): outsSize (18) > registersSize (11)
+E/dalvikvm(28665): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(28665): Swap of section type 2001 failed
+E/dalvikvm(28665): ERROR: Byte swap + verify failed
+E/dalvikvm(28665): Optimization failed
+E/dalvikvm(28593): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(28593): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(28593): VM aborting
+F/libc    (28593): Fatal signal 6 (SIGABRT) at 0x00006fb1 (code=-6), thread 28593 (zygote)
+E/MediaPlayerFactory(28856): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(28856): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(28856): no wake lock to update!
+E/dalvikvm(28933): outsSize (18) > registersSize (11)
+E/dalvikvm(28933): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(28933): Swap of section type 2001 failed
+E/dalvikvm(28933): ERROR: Byte swap + verify failed
+E/dalvikvm(28933): Optimization failed
+E/dalvikvm(28855): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(28855): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(28855): VM aborting
+F/libc    (28855): Fatal signal 6 (SIGABRT) at 0x000070b7 (code=-6), thread 28855 (zygote)
+E/MediaPlayerFactory(29119): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(29119): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(29119): no wake lock to update!
+E/dalvikvm(29220): outsSize (18) > registersSize (11)
+E/dalvikvm(29220): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(29220): Swap of section type 2001 failed
+E/dalvikvm(29220): ERROR: Byte swap + verify failed
+E/dalvikvm(29220): Optimization failed
+E/dalvikvm(29118): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(29118): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(29118): VM aborting
+F/libc    (29118): Fatal signal 6 (SIGABRT) at 0x000071be (code=-6), thread 29118 (zygote)
+E/MediaPlayerFactory(29384): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(29384): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(29384): no wake lock to update!
+E/dalvikvm(29455): outsSize (18) > registersSize (11)
+E/dalvikvm(29455): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(29455): Swap of section type 2001 failed
+E/dalvikvm(29455): ERROR: Byte swap + verify failed
+E/dalvikvm(29455): Optimization failed
+E/dalvikvm(29383): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(29383): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(29383): VM aborting
+F/libc    (29383): Fatal signal 6 (SIGABRT) at 0x000072c7 (code=-6), thread 29383 (zygote)
+E/MediaPlayerFactory(29625): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(29625): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/dalvikvm(29680): outsSize (18) > registersSize (11)
+E/dalvikvm(29680): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(29680): Swap of section type 2001 failed
+E/dalvikvm(29680): ERROR: Byte swap + verify failed
+E/dalvikvm(29680): Optimization failed
+E/dalvikvm(29624): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(29624): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(29624): VM aborting
+F/libc    (29624): Fatal signal 6 (SIGABRT) at 0x000073b8 (code=-6), thread 29624 (zygote)
+E/MediaPlayerFactory(29860): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(29860): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(29860): no wake lock to update!
+E/dalvikvm(29942): outsSize (18) > registersSize (11)
+E/dalvikvm(29942): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(29942): Swap of section type 2001 failed
+E/dalvikvm(29942): ERROR: Byte swap + verify failed
+E/dalvikvm(29942): Optimization failed
+E/dalvikvm(29859): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(29859): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(29859): VM aborting
+F/libc    (29859): Fatal signal 6 (SIGABRT) at 0x000074a3 (code=-6), thread 29859 (zygote)
+E/MediaPlayerFactory(30116): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(30116): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(30116): no wake lock to update!
+E/dalvikvm(30191): outsSize (18) > registersSize (11)
+E/dalvikvm(30191): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(30191): Swap of section type 2001 failed
+E/dalvikvm(30191): ERROR: Byte swap + verify failed
+E/dalvikvm(30191): Optimization failed
+E/dalvikvm(30115): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(30115): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(30115): VM aborting
+F/libc    (30115): Fatal signal 6 (SIGABRT) at 0x000075a3 (code=-6), thread 30115 (zygote)
+E/MediaPlayerFactory(30355): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(30355): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(30355): no wake lock to update!
+E/dalvikvm(30410): outsSize (18) > registersSize (11)
+E/dalvikvm(30410): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(30410): Swap of section type 2001 failed
+E/dalvikvm(30410): ERROR: Byte swap + verify failed
+E/dalvikvm(30410): Optimization failed
+E/dalvikvm(30354): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(30354): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(30354): VM aborting
+F/libc    (30354): Fatal signal 6 (SIGABRT) at 0x00007692 (code=-6), thread 30354 (zygote)
+E/MediaPlayerFactory(30567): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(30567): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(30567): no wake lock to update!
+E/dalvikvm(30652): outsSize (18) > registersSize (11)
+E/dalvikvm(30652): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(30652): Swap of section type 2001 failed
+E/dalvikvm(30652): ERROR: Byte swap + verify failed
+E/dalvikvm(30652): Optimization failed
+E/dalvikvm(30566): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(30566): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(30566): VM aborting
+F/libc    (30566): Fatal signal 6 (SIGABRT) at 0x00007766 (code=-6), thread 30566 (zygote)
+E/MediaPlayerFactory(30822): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(30822): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(30822): no wake lock to update!
+E/dalvikvm(30878): outsSize (18) > registersSize (11)
+E/dalvikvm(30878): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(30878): Swap of section type 2001 failed
+E/dalvikvm(30878): ERROR: Byte swap + verify failed
+E/dalvikvm(30878): Optimization failed
+E/dalvikvm(30821): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(30821): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(30821): VM aborting
+F/libc    (30821): Fatal signal 6 (SIGABRT) at 0x00007865 (code=-6), thread 30821 (zygote)
+E/MediaPlayerFactory(31057): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(31057): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(31057): no wake lock to update!
+E/dalvikvm(31147): outsSize (18) > registersSize (11)
+E/dalvikvm(31147): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(31147): Swap of section type 2001 failed
+E/dalvikvm(31147): ERROR: Byte swap + verify failed
+E/dalvikvm(31147): Optimization failed
+E/dalvikvm(31056): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(31056): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(31056): VM aborting
+F/libc    (31056): Fatal signal 6 (SIGABRT) at 0x00007950 (code=-6), thread 31056 (zygote)
+E/MediaPlayerFactory(31316): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(31316): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(31316): no wake lock to update!
+E/dalvikvm(31406): outsSize (18) > registersSize (11)
+E/dalvikvm(31406): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(31406): Swap of section type 2001 failed
+E/dalvikvm(31406): ERROR: Byte swap + verify failed
+E/dalvikvm(31406): Optimization failed
+E/dalvikvm(31315): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(31315): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(31315): VM aborting
+F/libc    (31315): Fatal signal 6 (SIGABRT) at 0x00007a53 (code=-6), thread 31315 (zygote)
+E/MediaPlayerFactory(31575): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(31575): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(31575): no wake lock to update!
+E/dalvikvm(31691): outsSize (18) > registersSize (11)
+E/dalvikvm(31691): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(31691): Swap of section type 2001 failed
+E/dalvikvm(31691): ERROR: Byte swap + verify failed
+E/dalvikvm(31691): Optimization failed
+E/dalvikvm(31574): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(31574): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(31574): VM aborting
+F/libc    (31574): Fatal signal 6 (SIGABRT) at 0x00007b56 (code=-6), thread 31574 (zygote)
+E/MediaPlayerFactory(31830): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(31830): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(31830): no wake lock to update!
+E/dalvikvm(31909): outsSize (18) > registersSize (11)
+E/dalvikvm(31909): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(31909): Swap of section type 2001 failed
+E/dalvikvm(31909): ERROR: Byte swap + verify failed
+E/dalvikvm(31909): Optimization failed
+E/dalvikvm(31829): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(31829): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(31829): VM aborting
+F/libc    (31829): Fatal signal 6 (SIGABRT) at 0x00007c55 (code=-6), thread 31829 (zygote)
+E/MediaPlayerFactory(32084): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(32084): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(32084): no wake lock to update!
+E/dalvikvm(32163): outsSize (18) > registersSize (11)
+E/dalvikvm(32163): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(32163): Swap of section type 2001 failed
+E/dalvikvm(32163): ERROR: Byte swap + verify failed
+E/dalvikvm(32163): Optimization failed
+E/dalvikvm(32083): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(32083): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(32083): VM aborting
+F/libc    (32083): Fatal signal 6 (SIGABRT) at 0x00007d53 (code=-6), thread 32083 (zygote)
+E/MediaPlayerFactory(32339): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(32339): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+E/AudioFlinger(32339): no wake lock to update!
+E/dalvikvm(32413): outsSize (18) > registersSize (11)
+E/dalvikvm(32413): Trouble with item 24395 @ offset 0x378a2c
+E/dalvikvm(32413): Swap of section type 2001 failed
+E/dalvikvm(32413): ERROR: Byte swap + verify failed
+E/dalvikvm(32413): Optimization failed
+E/dalvikvm(32338): Unable to extract+optimize DEX from '/system/framework/framework.jar'
+E/dalvikvm(32338): JNI posting fatal error: Native registration unable to find class 'android/debug/JNITest'; aborting...
+E/dalvikvm(32338): VM aborting
+F/libc    (32338): Fatal signal 6 (SIGABRT) at 0x00007e52 (code=-6), thread 32338 (zygote)
