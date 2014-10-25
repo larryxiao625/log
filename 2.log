@@ -1,0 +1,610 @@
+--------- beginning of /dev/log/main
+I/mediaserver( 5655): ARM-EE: STM trace not supported
+E/BandwidthController( 5656): runIptablesCmd(): failed /system/bin/iptables -t raw -N bw_raw_PREROUTING res=256
+E/BandwidthController( 5656): runIptablesCmd(): failed /system/bin/ip6tables -t raw -N bw_raw_PREROUTING res=256
+E/BellagioCore( 5657): ST Static Component Loader : Cannot open OpenMAX registry file /tmp/.omxregister
+E/BellagioCore( 5657): Component loader 1 constructor fails. Error= 0x80001000 
+E/OMXMaster( 5657): A component of name 'OMX.google.aac.decoder' already exists, ignoring this one.
+E/Trace   ( 5657): error opening trace file: No such file or directory (2)
+E/MP3Extractor( 5657): Unsupported format - try to Resyc
+E/AACExtractor( 5657): Unsupported format - try to Resyc
+W/MediaPlayer( 5657): info/warning (1, 902)
+E/MP3Extractor( 5657): Unsupported format - try to Resyc
+E/AACExtractor( 5657): Unsupported format - try to Resyc
+W/MediaPlayer( 5657): info/warning (1, 902)
+I/mediaserver( 5655): fatal error opening "/sys/power/wake_lock"
+I/mediaserver( 5655): fatal error opening "/sys/android_power/acquire_partial_wake_lock"
+W/AudioFlinger( 5657): findSuitableHwDev_l() loading well know audio hw modules
+E/ANM     ( 5657): [ERR] anm_ahi:109 Could not open libhtc_acoustic.so
+E/AudioFlinger( 5657): int android::load_audio_interface(char const*, audio_hw_device_t**) couldn't load audio hw module audio.usb (No such file or directory)
+I/mediaserver( 5655): INFO	ste_adm_client_connect: Local Socket 21 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5655): INFO	ste_adm_client_connect: Succesfully connected to ADM
+W/AudioFlinger( 5657): Thread AudioOut_5 cannot connect to the power manager service
+W/AudioFlinger( 5657): findSuitableHwDev_l() loading well know audio hw modules
+W/AudioFlinger( 5657): loadHwModule() module primary already loaded
+W/AudioFlinger( 5657): loadHwModule() module a2dp already loaded
+E/AudioFlinger( 5657): int android::load_audio_interface(char const*, audio_hw_device_t**) couldn't load audio hw module audio.usb (No such file or directory)
+I/mediaserver( 5655): INFO	ste_adm_client_connect: Local Socket 22 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5655): INFO	ste_adm_client_connect: Succesfully connected to ADM
+W/AudioFlinger( 5657): findSuitableHwDev_l() loading well know audio hw modules
+W/AudioFlinger( 5657): loadHwModule() module primary already loaded
+W/AudioFlinger( 5657): loadHwModule() module a2dp already loaded
+E/AudioFlinger( 5657): int android::load_audio_interface(char const*, audio_hw_device_t**) couldn't load audio hw module audio.usb (No such file or directory)
+W/AudioFlinger( 5657): Thread AudioOut_6 cannot connect to the power manager service
+I/mediaserver( 5655): INFO	ste_adm_client_connect: Local Socket 23 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5655): INFO	ste_adm_client_connect: Succesfully connected to ADM
+W/AudioFlinger( 5657): findSuitableHwDev_l() loading well know audio hw modules
+W/AudioFlinger( 5657): loadHwModule() module primary already loaded
+W/AudioFlinger( 5657): loadHwModule() module a2dp already loaded
+E/AudioFlinger( 5657): int android::load_audio_interface(char const*, audio_hw_device_t**) couldn't load audio hw module audio.usb (No such file or directory)
+W/AudioFlinger( 5657): Thread AudioOut_7 cannot connect to the power manager service
+I/mediaserver( 5655): INFO	ste_adm_client_connect: Local Socket 24 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5655): INFO	ste_adm_client_connect: Succesfully connected to ADM
+W/AudioFlinger( 5657): Thread AudioOut_8 cannot connect to the power manager service
+I/mediaserver( 5655): INFO	ste_adm_client_connect: Local Socket 25 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5655): INFO	ste_adm_client_connect: Local Socket 26 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5655): INFO	ste_adm_client_connect: Succesfully connected to ADM
+I/mediaserver( 5655): INFO	ste_adm_client_connect: Succesfully connected to ADM
+I/mediaserver( 5655): INFO	ste_adm_client_disconnect: Local socket 25 closed
+I/mediaserver( 5655): INFO	ste_adm_get_2nd_modem_connect_state: ste_adm_get_2nd_modem_connect_state state = 0
+E/dalvikvm( 5796): Out-of-order entry types: 0x922 then 0x922
+E/dalvikvm( 5796): Trouble with item 634 @ offset 0xcab9c
+E/dalvikvm( 5796): Cross-item verify of section type 1003 failed
+E/dalvikvm( 5796): ERROR: Byte swap + verify failed
+E/dalvikvm( 5796): Optimization failed
+W/dalvikvm( 5795): DexOpt: --- END 'framework2.jar' --- status=0xff00, process failed
+E/dalvikvm( 5795): Unable to extract+optimize DEX from '/system/framework/framework2.jar'
+E/JNIHelp ( 5795): Native registration unable to find class 'com/android/internal/os/RuntimeInit', aborting
+F/libc    ( 5795): Fatal signal 11 (SIGSEGV) at 0xdeadbaad (code=1), thread 5795 (zygote)
+I/DEBUG   ( 1538): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 1538): Build fingerprint: 'htccn_chs_cmcc/prototd/prototd:4.1.1/T329T_R_2.2.59.49/T329T_R_2.2.59.49:user/test-keys'
+I/DEBUG   ( 1538): pid: 5795, tid: 5795, name: zygote  >>> zygote <<<
+I/DEBUG   ( 1538): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr deadbaad
+I/DEBUG   ( 1538):     r0 00000027  r1 deadbaad  r2 00000000  r3 00000000
+I/DEBUG   ( 1538):     r4 00000000  r5 bef3b8dc  r6 80000000  r7 00000003
+I/DEBUG   ( 1538):     r8 40283ce0  r9 400b1061  sl 400b1034  fp 400b106a
+I/DEBUG   ( 1538):     ip 400f9fe0  sp bef3b8d8  lr 401131b1  pc 401131da  cpsr 60000030
+I/DEBUG   ( 1538):     d0  74726f6261202c27  d1  65746e692f64696f
+I/DEBUG   ( 1538):     d2  2f736f2f6c616e72  d3  49656d69746e7552
+I/DEBUG   ( 1538):     d4  0000000000000000  d5  0000000000000000
+I/DEBUG   ( 1538):     d6  0074006100570072  d7  006f006400680063
+I/DEBUG   ( 1538):     d8  0000000000000000  d9  0000000000000000
+I/DEBUG   ( 1538):     d10 0000000000000000  d11 0000000000000000
+I/DEBUG   ( 1538):     d12 0000000000000000  d13 0000000000000000
+I/DEBUG   ( 1538):     d14 0000000000000000  d15 0000000000000000
+I/DEBUG   ( 1538):     d16 0000000000000044  d17 0000000000000000
+I/DEBUG   ( 1538):     d18 0000000000000000  d19 0000000000000000
+I/DEBUG   ( 1538):     d20 0000000000000000  d21 0000000000000000
+I/DEBUG   ( 1538):     d22 0000000000000000  d23 0000000000000000
+I/DEBUG   ( 1538):     d24 0000000000000000  d25 0000000000000000
+I/DEBUG   ( 1538):     d26 0000000000000000  d27 0000000000000000
+I/DEBUG   ( 1538):     d28 0000000000000000  d29 0000000000000000
+I/DEBUG   ( 1538):     d30 0000000000000000  d31 0000000000000000
+I/DEBUG   ( 1538):     scr 60000010
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): backtrace:
+I/DEBUG   ( 1538):     #00  pc 000181da  /system/lib/libc.so
+I/DEBUG   ( 1538):     #01  pc 0000dbe4  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 1538):     #02  pc 000009e9  /system/lib/libnativehelper.so (jniRegisterNativeMethods+128)
+I/DEBUG   ( 1538):     #03  pc 0004fb1b  /system/lib/libandroid_runtime.so (android::AndroidRuntime::startReg(_JNIEnv*)+34)
+I/DEBUG   ( 1538):     #04  pc 0004fc55  /system/lib/libandroid_runtime.so (android::AndroidRuntime::start(char const*, char const*)+260)
+I/DEBUG   ( 1538):     #05  pc 00000e53  /system/bin/app_process
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): stack:
+I/DEBUG   ( 1538):          bef3b898  4d1e7d90  
+I/DEBUG   ( 1538):          bef3b89c  40d0f8c0  /dev/ashmem/dalvik-heap (deleted)
+I/DEBUG   ( 1538):          bef3b8a0  4bf56010  
+I/DEBUG   ( 1538):          bef3b8a4  40d11798  /dev/ashmem/dalvik-heap (deleted)
+I/DEBUG   ( 1538):          bef3b8a8  00000000  
+I/DEBUG   ( 1538):          bef3b8ac  40111e71  /system/lib/libc.so (free+12)
+I/DEBUG   ( 1538):          bef3b8b0  00001000  
+I/DEBUG   ( 1538):          bef3b8b4  4d1e7d90  
+I/DEBUG   ( 1538):          bef3b8b8  40d0f8c0  /dev/ashmem/dalvik-heap (deleted)
+I/DEBUG   ( 1538):          bef3b8bc  00000000  
+I/DEBUG   ( 1538):          bef3b8c0  00000003  
+I/DEBUG   ( 1538):          bef3b8c4  4011069d  /system/lib/libc.so (dlfree+56)
+I/DEBUG   ( 1538):          bef3b8c8  40110665  /system/lib/libc.so (dlfree)
+I/DEBUG   ( 1538):          bef3b8cc  4d1e7d90  
+I/DEBUG   ( 1538):          bef3b8d0  df0027ad  
+I/DEBUG   ( 1538):          bef3b8d4  00000000  
+I/DEBUG   ( 1538):     #00  bef3b8d8  bef3b8f4  [stack]
+I/DEBUG   ( 1538):          bef3b8dc  fffffbdf  
+I/DEBUG   ( 1538):          bef3b8e0  00000000  
+I/DEBUG   ( 1538):          bef3b8e4  40c46790  
+I/DEBUG   ( 1538):          bef3b8e8  40255c32  /system/lib/libandroid_runtime.so
+I/DEBUG   ( 1538):          bef3b8ec  17a13f1a  
+I/DEBUG   ( 1538):          bef3b8f0  40c46790  
+I/DEBUG   ( 1538):          bef3b8f4  40c46790  
+I/DEBUG   ( 1538):          bef3b8f8  40255c32  /system/lib/libandroid_runtime.so
+I/DEBUG   ( 1538):          bef3b8fc  40108be8  /system/lib/libc.so (__pthread_clone)
+I/DEBUG   ( 1538):     #01  bef3b900  17a13f1a  
+I/DEBUG   ( 1538):          bef3b904  400f79ed  /system/lib/libnativehelper.so (jniRegisterNativeMethods+132)
+I/DEBUG   ( 1538):     #02  bef3b908  40c46790  
+I/DEBUG   ( 1538):          bef3b90c  00000000  
+I/DEBUG   ( 1538):          bef3b910  40c46790  
+I/DEBUG   ( 1538):          bef3b914  00000001  
+I/DEBUG   ( 1538):          bef3b918  4027fd60  /system/lib/libandroid_runtime.so
+I/DEBUG   ( 1538):          bef3b91c  400b103b  /system/bin/app_process
+I/DEBUG   ( 1538):          bef3b920  400b109b  /system/bin/app_process
+I/DEBUG   ( 1538):          bef3b924  401d6b1d  /system/lib/libandroid_runtime.so (android::AndroidRuntime::startReg(_JNIEnv*)+36)
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near r5:
+I/DEBUG   ( 1538):     bef3b8bc 00000000 00000003 4011069d 40110665  ...........@e..@
+I/DEBUG   ( 1538):     bef3b8cc 4d1e7d90 df0027ad 00000000 bef3b8f4  .}.M.'..........
+I/DEBUG   ( 1538):     bef3b8dc fffffbdf 00000000 40c46790 40255c32  .........g.@2\%@
+I/DEBUG   ( 1538):     bef3b8ec 17a13f1a 40c46790 40c46790 40255c32  .?...g.@.g.@2\%@
+I/DEBUG   ( 1538):     bef3b8fc 40108be8 17a13f1a 400f79ed 40c46790  ...@.?...y.@.g.@
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near r6:
+I/DEBUG   ( 1538):     7fffffe0 ffffffff ffffffff ffffffff ffffffff  ................
+I/DEBUG   ( 1538):     7ffffff0 ffffffff ffffffff ffffffff ffffffff  ................
+I/DEBUG   ( 1538):     80000000 ffffffff ffffffff ffffffff ffffffff  ................
+I/DEBUG   ( 1538):     80000010 ffffffff ffffffff ffffffff ffffffff  ................
+I/DEBUG   ( 1538):     80000020 ffffffff ffffffff ffffffff ffffffff  ................
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near r8:
+I/DEBUG   ( 1538):     40283cc0 401d53ac 40255b98 40255818 401d52f4  .S.@.[%@.X%@.R.@
+I/DEBUG   ( 1538):     40283cd0 40255ba4 40255818 401d523c 00000018  .[%@.X%@<R.@....
+I/DEBUG   ( 1538):     40283ce0 402562d5 402562e6 401d5d85 402562ea  .b%@.b%@.].@.b%@
+I/DEBUG   ( 1538):     40283cf0 402562e6 401d5d99 402562fb 40256317  .b%@.].@.b%@.c%@
+I/DEBUG   ( 1538):     40283d00 401d5dad 00000080 40256506 4025651f  .].@.....e%@.e%@
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near r9:
+I/DEBUG   ( 1538):     400b1040 7379732d 2d6d6574 76726573 00007265  -system-server..
+I/DEBUG   ( 1538):     400b1050 6c707061 74616369 006e6f69 6c6f6f74  application.tool
+I/DEBUG   ( 1538):     400b1060 7a2d2d00 746f6779 2d2d0065 72617473  .--zygote.--star
+I/DEBUG   ( 1538):     400b1070 79732d74 6d657473 7265732d 00726576  t-system-server.
+I/DEBUG   ( 1538):     400b1080 70612d2d 63696c70 6f697461 2d2d006e  --application.--
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near sl:
+I/DEBUG   ( 1538):     400b1014 20726964 72617473 6c632d74 2d737361  dir start-class-
+I/DEBUG   ( 1538):     400b1024 656d616e 706f5b20 6e6f6974 000a5d73  name [options]..
+I/DEBUG   ( 1538):     400b1034 6f67797a 73006574 74726174 7379732d  zygote.start-sys
+I/DEBUG   ( 1538):     400b1044 2d6d6574 76726573 00007265 6c707061  tem-server..appl
+I/DEBUG   ( 1538):     400b1054 74616369 006e6f69 6c6f6f74 7a2d2d00  ication.tool.--z
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near fp:
+I/DEBUG   ( 1538):     400b1048 76726573 00007265 6c707061 74616369  server..applicat
+I/DEBUG   ( 1538):     400b1058 006e6f69 6c6f6f74 7a2d2d00 746f6779  ion.tool.--zygot
+I/DEBUG   ( 1538):     400b1068 2d2d0065 72617473 79732d74 6d657473  e.--start-system
+I/DEBUG   ( 1538):     400b1078 7265732d 00726576 70612d2d 63696c70  -server.--applic
+I/DEBUG   ( 1538):     400b1088 6f697461 2d2d006e 6563696e 6d616e2d  ation.--nice-nam
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near ip:
+I/DEBUG   ( 1538):     400f9fc0 4014ba6c 00000000 00000000 00000000  l..@............
+I/DEBUG   ( 1538):     400f9fd0 4011d9e9 401174dd 40018b8d 40018581  ...@.t.@...@...@
+I/DEBUG   ( 1538):     400f9fe0 40108be0 4011d9b1 401158f1 4001832d  ...@...@.X.@-..@
+I/DEBUG   ( 1538):     400f9ff0 40111e65 40125765 40119cfd 4011a0b5  e..@eW.@...@...@
+I/DEBUG   ( 1538):     400fa000 00000018 00000000 00000000 00000000  ................
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near sp:
+I/DEBUG   ( 1538):     bef3b8b8 40d0f8c0 00000000 00000003 4011069d  ...@...........@
+I/DEBUG   ( 1538):     bef3b8c8 40110665 4d1e7d90 df0027ad 00000000  e..@.}.M.'......
+I/DEBUG   ( 1538):     bef3b8d8 bef3b8f4 fffffbdf 00000000 40c46790  .............g.@
+I/DEBUG   ( 1538):     bef3b8e8 40255c32 17a13f1a 40c46790 40c46790  2\%@.?...g.@.g.@
+I/DEBUG   ( 1538):     bef3b8f8 40255c32 40108be8 17a13f1a 400f79ed  2\%@...@.?...y.@
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): code around pc:
+I/DEBUG   ( 1538):     401131b8 e000b164 6823461c d1fb2b00 68e3e026  d....F#h.+..&..h
+I/DEBUG   ( 1538):     401131c8 4a17b123 447a2401 47986014 20274911  #..J.$zD.`.G.I' 
+I/DEBUG   ( 1538):     401131d8 70082400 ec34f7f4 f7f52106 a902ed74  .$.p..4..!..t...
+I/DEBUG   ( 1538):     401131e8 f04f2006 460a5380 94029304 f7f59403  . O..S.F........
+I/DEBUG   ( 1538):     401131f8 4629e952 20024622 e95af7f5 ec20f7f4  R.)F"F. ..Z... .
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): code around lr:
+I/DEBUG   ( 1538):     40113190 f46f4923 b5306084 4479b087 ad066809  #Io..`0...yD.h..
+I/DEBUG   ( 1538):     401131a0 f8452200 20020d14 4629680c e984f7f5  ."E.... .h)F....
+I/DEBUG   ( 1538):     401131b0 447b4b1c b96b681b e000b164 6823461c  .K{D.hk.d....F#h
+I/DEBUG   ( 1538):     401131c0 d1fb2b00 68e3e026 4a17b123 447a2401  .+..&..h#..J.$zD
+I/DEBUG   ( 1538):     401131d0 47986014 20274911 70082400 ec34f7f4  .`.G.I' .$.p..4.
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory map around fault addr deadbaad:
+I/DEBUG   ( 1538):     bef1b000-bef3c000 [stack]
+I/DEBUG   ( 1538):     (no map for address)
+I/DEBUG   ( 1538):     ffff0000-ffff1000 [vectors]
+I/mediaserver( 5800): ARM-EE: STM trace not supported
+E/BandwidthController( 5801): runIptablesCmd(): failed /system/bin/iptables -t raw -N bw_raw_PREROUTING res=256
+E/BandwidthController( 5801): runIptablesCmd(): failed /system/bin/ip6tables -t raw -N bw_raw_PREROUTING res=256
+E/BellagioCore( 5802): ST Static Component Loader : Cannot open OpenMAX registry file /tmp/.omxregister
+E/BellagioCore( 5802): Component loader 1 constructor fails. Error= 0x80001000 
+E/OMXMaster( 5802): A component of name 'OMX.google.aac.decoder' already exists, ignoring this one.
+E/Trace   ( 5802): error opening trace file: No such file or directory (2)
+E/MP3Extractor( 5802): Unsupported format - try to Resyc
+E/AACExtractor( 5802): Unsupported format - try to Resyc
+W/MediaPlayer( 5802): info/warning (1, 902)
+E/MP3Extractor( 5802): Unsupported format - try to Resyc
+E/AACExtractor( 5802): Unsupported format - try to Resyc
+W/MediaPlayer( 5802): info/warning (1, 902)
+I/mediaserver( 5800): fatal error opening "/sys/power/wake_lock"
+I/mediaserver( 5800): fatal error opening "/sys/android_power/acquire_partial_wake_lock"
+W/AudioFlinger( 5802): findSuitableHwDev_l() loading well know audio hw modules
+E/ANM     ( 5802): [ERR] anm_ahi:109 Could not open libhtc_acoustic.so
+E/AudioFlinger( 5802): int android::load_audio_interface(char const*, audio_hw_device_t**) couldn't load audio hw module audio.usb (No such file or directory)
+I/mediaserver( 5800): INFO	ste_adm_client_connect: Local Socket 21 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5800): INFO	ste_adm_client_connect: Succesfully connected to ADM
+W/AudioFlinger( 5802): Thread AudioOut_5 cannot connect to the power manager service
+W/AudioFlinger( 5802): findSuitableHwDev_l() loading well know audio hw modules
+W/AudioFlinger( 5802): loadHwModule() module primary already loaded
+W/AudioFlinger( 5802): loadHwModule() module a2dp already loaded
+E/AudioFlinger( 5802): int android::load_audio_interface(char const*, audio_hw_device_t**) couldn't load audio hw module audio.usb (No such file or directory)
+I/mediaserver( 5800): INFO	ste_adm_client_connect: Local Socket 22 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5800): INFO	ste_adm_client_connect: Succesfully connected to ADM
+W/AudioFlinger( 5802): findSuitableHwDev_l() loading well know audio hw modules
+W/AudioFlinger( 5802): Thread AudioOut_6 cannot connect to the power manager service
+W/AudioFlinger( 5802): loadHwModule() module primary already loaded
+W/AudioFlinger( 5802): loadHwModule() module a2dp already loaded
+E/AudioFlinger( 5802): int android::load_audio_interface(char const*, audio_hw_device_t**) couldn't load audio hw module audio.usb (No such file or directory)
+I/mediaserver( 5800): INFO	ste_adm_client_connect: Local Socket 23 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5800): INFO	ste_adm_client_connect: Succesfully connected to ADM
+W/AudioFlinger( 5802): findSuitableHwDev_l() loading well know audio hw modules
+W/AudioFlinger( 5802): loadHwModule() module primary already loaded
+W/AudioFlinger( 5802): loadHwModule() module a2dp already loaded
+E/AudioFlinger( 5802): int android::load_audio_interface(char const*, audio_hw_device_t**) couldn't load audio hw module audio.usb (No such file or directory)
+W/AudioFlinger( 5802): Thread AudioOut_7 cannot connect to the power manager service
+I/mediaserver( 5800): INFO	ste_adm_client_connect: Local Socket 24 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5800): INFO	ste_adm_client_connect: Succesfully connected to ADM
+W/AudioFlinger( 5802): Thread AudioOut_8 cannot connect to the power manager service
+I/mediaserver( 5800): INFO	ste_adm_client_connect: Local Socket 25 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5800): INFO	ste_adm_client_connect: Succesfully connected to ADM
+I/mediaserver( 5800): INFO	ste_adm_client_connect: Local Socket 26 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5800): INFO	ste_adm_client_connect: Succesfully connected to ADM
+I/mediaserver( 5800): INFO	ste_adm_client_disconnect: Local socket 25 closed
+I/mediaserver( 5800): INFO	ste_adm_get_2nd_modem_connect_state: ste_adm_get_2nd_modem_connect_state state = 0
+E/dalvikvm( 5941): Out-of-order entry types: 0x922 then 0x922
+E/dalvikvm( 5941): Trouble with item 634 @ offset 0xcab9c
+E/dalvikvm( 5941): Cross-item verify of section type 1003 failed
+E/dalvikvm( 5941): ERROR: Byte swap + verify failed
+E/dalvikvm( 5941): Optimization failed
+W/dalvikvm( 5940): DexOpt: --- END 'framework2.jar' --- status=0xff00, process failed
+E/dalvikvm( 5940): Unable to extract+optimize DEX from '/system/framework/framework2.jar'
+E/JNIHelp ( 5940): Native registration unable to find class 'com/android/internal/os/RuntimeInit', aborting
+F/libc    ( 5940): Fatal signal 11 (SIGSEGV) at 0xdeadbaad (code=1), thread 5940 (zygote)
+I/DEBUG   ( 1538): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 1538): Build fingerprint: 'htccn_chs_cmcc/prototd/prototd:4.1.1/T329T_R_2.2.59.49/T329T_R_2.2.59.49:user/test-keys'
+I/DEBUG   ( 1538): pid: 5940, tid: 5940, name: zygote  >>> zygote <<<
+I/DEBUG   ( 1538): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr deadbaad
+I/DEBUG   ( 1538):     r0 00000027  r1 deadbaad  r2 00000000  r3 00000000
+I/DEBUG   ( 1538):     r4 00000000  r5 bedb48dc  r6 80000000  r7 00000003
+I/DEBUG   ( 1538):     r8 4026fce0  r9 40008061  sl 40008034  fp 4000806a
+I/DEBUG   ( 1538):     ip 4009afe0  sp bedb48d8  lr 4005a1b1  pc 4005a1da  cpsr 60000030
+I/DEBUG   ( 1538):     d0  74726f6261202c27  d1  65746e692f64696f
+I/DEBUG   ( 1538):     d2  2f736f2f6c616e72  d3  49656d69746e7552
+I/DEBUG   ( 1538):     d4  0000000000000000  d5  0000000000000000
+I/DEBUG   ( 1538):     d6  0074006100570072  d7  006f006400680063
+I/DEBUG   ( 1538):     d8  0000000000000000  d9  0000000000000000
+I/DEBUG   ( 1538):     d10 0000000000000000  d11 0000000000000000
+I/DEBUG   ( 1538):     d12 0000000000000000  d13 0000000000000000
+I/DEBUG   ( 1538):     d14 0000000000000000  d15 0000000000000000
+I/DEBUG   ( 1538):     d16 0000000000000044  d17 0000000000000000
+I/DEBUG   ( 1538):     d18 0000000000000000  d19 0000000000000000
+I/DEBUG   ( 1538):     d20 0000000000000000  d21 0000000000000000
+I/DEBUG   ( 1538):     d22 0000000000000000  d23 0000000000000000
+I/DEBUG   ( 1538):     d24 0000000000000000  d25 0000000000000000
+I/DEBUG   ( 1538):     d26 0000000000000000  d27 0000000000000000
+I/DEBUG   ( 1538):     d28 0000000000000000  d29 0000000000000000
+I/DEBUG   ( 1538):     d30 0000000000000000  d31 0000000000000000
+I/DEBUG   ( 1538):     scr 60000010
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): backtrace:
+I/DEBUG   ( 1538):     #00  pc 000181da  /system/lib/libc.so
+I/DEBUG   ( 1538):     #01  pc 0000dbe4  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 1538):     #02  pc 000009e9  /system/lib/libnativehelper.so (jniRegisterNativeMethods+128)
+I/DEBUG   ( 1538):     #03  pc 0004fb1b  /system/lib/libandroid_runtime.so (android::AndroidRuntime::startReg(_JNIEnv*)+34)
+I/DEBUG   ( 1538):     #04  pc 0004fc55  /system/lib/libandroid_runtime.so (android::AndroidRuntime::start(char const*, char const*)+260)
+I/DEBUG   ( 1538):     #05  pc 00000e53  /system/bin/app_process
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): stack:
+I/DEBUG   ( 1538):          bedb4898  40d43e98  
+I/DEBUG   ( 1538):          bedb489c  415c88c0  /dev/ashmem/dalvik-heap (deleted)
+I/DEBUG   ( 1538):          bedb48a0  415b2b20  [heap]
+I/DEBUG   ( 1538):          bedb48a4  415ca798  /dev/ashmem/dalvik-heap (deleted)
+I/DEBUG   ( 1538):          bedb48a8  00000000  
+I/DEBUG   ( 1538):          bedb48ac  40058e71  /system/lib/libc.so (free+12)
+I/DEBUG   ( 1538):          bedb48b0  00001000  
+I/DEBUG   ( 1538):          bedb48b4  40d43e98  
+I/DEBUG   ( 1538):          bedb48b8  415c88c0  /dev/ashmem/dalvik-heap (deleted)
+I/DEBUG   ( 1538):          bedb48bc  00000000  
+I/DEBUG   ( 1538):          bedb48c0  00000003  
+I/DEBUG   ( 1538):          bedb48c4  4005769d  /system/lib/libc.so (dlfree+56)
+I/DEBUG   ( 1538):          bedb48c8  40057665  /system/lib/libc.so (dlfree)
+I/DEBUG   ( 1538):          bedb48cc  40d43e98  
+I/DEBUG   ( 1538):          bedb48d0  df0027ad  
+I/DEBUG   ( 1538):          bedb48d4  00000000  
+I/DEBUG   ( 1538):     #00  bedb48d8  bedb48f4  [stack]
+I/DEBUG   ( 1538):          bedb48dc  fffffbdf  
+I/DEBUG   ( 1538):          bedb48e0  00000000  
+I/DEBUG   ( 1538):          bedb48e4  415b26c8  [heap]
+I/DEBUG   ( 1538):          bedb48e8  40241c32  /system/lib/libandroid_runtime.so
+I/DEBUG   ( 1538):          bedb48ec  59600ef5  
+I/DEBUG   ( 1538):          bedb48f0  415b26c8  [heap]
+I/DEBUG   ( 1538):          bedb48f4  415b26c8  [heap]
+I/DEBUG   ( 1538):          bedb48f8  40241c32  /system/lib/libandroid_runtime.so
+I/DEBUG   ( 1538):          bedb48fc  4004fbe8  /system/lib/libc.so (__pthread_clone)
+I/DEBUG   ( 1538):     #01  bedb4900  59600ef5  
+I/DEBUG   ( 1538):          bedb4904  400989ed  /system/lib/libnativehelper.so (jniRegisterNativeMethods+132)
+I/DEBUG   ( 1538):     #02  bedb4908  415b26c8  [heap]
+I/DEBUG   ( 1538):          bedb490c  00000000  
+I/DEBUG   ( 1538):          bedb4910  415b26c8  [heap]
+I/DEBUG   ( 1538):          bedb4914  00000001  
+I/DEBUG   ( 1538):          bedb4918  4026bd60  /system/lib/libandroid_runtime.so
+I/DEBUG   ( 1538):          bedb491c  4000803b  /system/bin/app_process
+I/DEBUG   ( 1538):          bedb4920  4000809b  /system/bin/app_process
+I/DEBUG   ( 1538):          bedb4924  401c2b1d  /system/lib/libandroid_runtime.so (android::AndroidRuntime::startReg(_JNIEnv*)+36)
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near r5:
+I/DEBUG   ( 1538):     bedb48bc 00000000 00000003 4005769d 40057665  .........v.@ev.@
+I/DEBUG   ( 1538):     bedb48cc 40d43e98 df0027ad 00000000 bedb48f4  .>.@.'.......H..
+I/DEBUG   ( 1538):     bedb48dc fffffbdf 00000000 415b26c8 40241c32  .........&[A2.$@
+I/DEBUG   ( 1538):     bedb48ec 59600ef5 415b26c8 415b26c8 40241c32  ..`Y.&[A.&[A2.$@
+I/DEBUG   ( 1538):     bedb48fc 4004fbe8 59600ef5 400989ed 415b26c8  ...@..`Y...@.&[A
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near r6:
+I/DEBUG   ( 1538):     7fffffe0 ffffffff ffffffff ffffffff ffffffff  ................
+I/DEBUG   ( 1538):     7ffffff0 ffffffff ffffffff ffffffff ffffffff  ................
+I/DEBUG   ( 1538):     80000000 ffffffff ffffffff ffffffff ffffffff  ................
+I/DEBUG   ( 1538):     80000010 ffffffff ffffffff ffffffff ffffffff  ................
+I/DEBUG   ( 1538):     80000020 ffffffff ffffffff ffffffff ffffffff  ................
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near r8:
+I/DEBUG   ( 1538):     4026fcc0 401c13ac 40241b98 40241818 401c12f4  ...@..$@..$@...@
+I/DEBUG   ( 1538):     4026fcd0 40241ba4 40241818 401c123c 00000018  ..$@..$@<..@....
+I/DEBUG   ( 1538):     4026fce0 402422d5 402422e6 401c1d85 402422ea  ."$@."$@...@."$@
+I/DEBUG   ( 1538):     4026fcf0 402422e6 401c1d99 402422fb 40242317  ."$@...@."$@.#$@
+I/DEBUG   ( 1538):     4026fd00 401c1dad 00000080 40242506 4024251f  ...@.....%$@.%$@
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near r9:
+I/DEBUG   ( 1538):     40008040 7379732d 2d6d6574 76726573 00007265  -system-server..
+I/DEBUG   ( 1538):     40008050 6c707061 74616369 006e6f69 6c6f6f74  application.tool
+I/DEBUG   ( 1538):     40008060 7a2d2d00 746f6779 2d2d0065 72617473  .--zygote.--star
+I/DEBUG   ( 1538):     40008070 79732d74 6d657473 7265732d 00726576  t-system-server.
+I/DEBUG   ( 1538):     40008080 70612d2d 63696c70 6f697461 2d2d006e  --application.--
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near sl:
+I/DEBUG   ( 1538):     40008014 20726964 72617473 6c632d74 2d737361  dir start-class-
+I/DEBUG   ( 1538):     40008024 656d616e 706f5b20 6e6f6974 000a5d73  name [options]..
+I/DEBUG   ( 1538):     40008034 6f67797a 73006574 74726174 7379732d  zygote.start-sys
+I/DEBUG   ( 1538):     40008044 2d6d6574 76726573 00007265 6c707061  tem-server..appl
+I/DEBUG   ( 1538):     40008054 74616369 006e6f69 6c6f6f74 7a2d2d00  ication.tool.--z
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near fp:
+I/DEBUG   ( 1538):     40008048 76726573 00007265 6c707061 74616369  server..applicat
+I/DEBUG   ( 1538):     40008058 006e6f69 6c6f6f74 7a2d2d00 746f6779  ion.tool.--zygot
+I/DEBUG   ( 1538):     40008068 2d2d0065 72617473 79732d74 6d657473  e.--start-system
+I/DEBUG   ( 1538):     40008078 7265732d 00726576 70612d2d 63696c70  -server.--applic
+I/DEBUG   ( 1538):     40008088 6f697461 2d2d006e 6563696e 6d616e2d  ation.--nice-nam
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near ip:
+I/DEBUG   ( 1538):     4009afc0 40092a6c 00000000 00000000 00000000  l*.@............
+I/DEBUG   ( 1538):     4009afd0 400649e9 4005e4dd 400a1b8d 400a1581  .I.@...@...@...@
+I/DEBUG   ( 1538):     4009afe0 4004fbe0 400649b1 4005c8f1 400a132d  ...@.I.@...@-..@
+I/DEBUG   ( 1538):     4009aff0 40058e65 4006c765 40060cfd 400610b5  e..@e..@...@...@
+I/DEBUG   ( 1538):     4009b000 00000018 00000000 00000000 00000000  ................
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near sp:
+I/DEBUG   ( 1538):     bedb48b8 415c88c0 00000000 00000003 4005769d  ..\A.........v.@
+I/DEBUG   ( 1538):     bedb48c8 40057665 40d43e98 df0027ad 00000000  ev.@.>.@.'......
+I/DEBUG   ( 1538):     bedb48d8 bedb48f4 fffffbdf 00000000 415b26c8  .H...........&[A
+I/DEBUG   ( 1538):     bedb48e8 40241c32 59600ef5 415b26c8 415b26c8  2.$@..`Y.&[A.&[A
+I/DEBUG   ( 1538):     bedb48f8 40241c32 4004fbe8 59600ef5 400989ed  2.$@...@..`Y...@
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): code around pc:
+I/DEBUG   ( 1538):     4005a1b8 e000b164 6823461c d1fb2b00 68e3e026  d....F#h.+..&..h
+I/DEBUG   ( 1538):     4005a1c8 4a17b123 447a2401 47986014 20274911  #..J.$zD.`.G.I' 
+I/DEBUG   ( 1538):     4005a1d8 70082400 ec34f7f4 f7f52106 a902ed74  .$.p..4..!..t...
+I/DEBUG   ( 1538):     4005a1e8 f04f2006 460a5380 94029304 f7f59403  . O..S.F........
+I/DEBUG   ( 1538):     4005a1f8 4629e952 20024622 e95af7f5 ec20f7f4  R.)F"F. ..Z... .
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): code around lr:
+I/DEBUG   ( 1538):     4005a190 f46f4923 b5306084 4479b087 ad066809  #Io..`0...yD.h..
+I/DEBUG   ( 1538):     4005a1a0 f8452200 20020d14 4629680c e984f7f5  ."E.... .h)F....
+I/DEBUG   ( 1538):     4005a1b0 447b4b1c b96b681b e000b164 6823461c  .K{D.hk.d....F#h
+I/DEBUG   ( 1538):     4005a1c0 d1fb2b00 68e3e026 4a17b123 447a2401  .+..&..h#..J.$zD
+I/DEBUG   ( 1538):     4005a1d0 47986014 20274911 70082400 ec34f7f4  .`.G.I' .$.p..4.
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory map around fault addr deadbaad:
+I/DEBUG   ( 1538):     bed94000-bedb5000 [stack]
+I/DEBUG   ( 1538):     (no map for address)
+I/DEBUG   ( 1538):     ffff0000-ffff1000 [vectors]
+E/BandwidthController( 5946): runIptablesCmd(): failed /system/bin/iptables -t raw -N bw_raw_PREROUTING res=256
+E/BandwidthController( 5946): runIptablesCmd(): failed /system/bin/ip6tables -t raw -N bw_raw_PREROUTING res=256
+I/mediaserver( 5945): ARM-EE: STM trace not supported
+E/BellagioCore( 5947): ST Static Component Loader : Cannot open OpenMAX registry file /tmp/.omxregister
+E/BellagioCore( 5947): Component loader 1 constructor fails. Error= 0x80001000 
+E/OMXMaster( 5947): A component of name 'OMX.google.aac.decoder' already exists, ignoring this one.
+E/Trace   ( 5947): error opening trace file: No such file or directory (2)
+E/MP3Extractor( 5947): Unsupported format - try to Resyc
+E/AACExtractor( 5947): Unsupported format - try to Resyc
+W/MediaPlayer( 5947): info/warning (1, 902)
+E/MP3Extractor( 5947): Unsupported format - try to Resyc
+E/AACExtractor( 5947): Unsupported format - try to Resyc
+W/MediaPlayer( 5947): info/warning (1, 902)
+I/mediaserver( 5945): fatal error opening "/sys/power/wake_lock"
+I/mediaserver( 5945): fatal error opening "/sys/android_power/acquire_partial_wake_lock"
+W/AudioFlinger( 5947): findSuitableHwDev_l() loading well know audio hw modules
+E/ANM     ( 5947): [ERR] anm_ahi:109 Could not open libhtc_acoustic.so
+E/AudioFlinger( 5947): int android::load_audio_interface(char const*, audio_hw_device_t**) couldn't load audio hw module audio.usb (No such file or directory)
+I/mediaserver( 5945): INFO	ste_adm_client_connect: Local Socket 21 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5945): INFO	ste_adm_client_connect: Succesfully connected to ADM
+W/AudioFlinger( 5947): Thread AudioOut_5 cannot connect to the power manager service
+W/AudioFlinger( 5947): findSuitableHwDev_l() loading well know audio hw modules
+W/AudioFlinger( 5947): loadHwModule() module primary already loaded
+W/AudioFlinger( 5947): loadHwModule() module a2dp already loaded
+E/AudioFlinger( 5947): int android::load_audio_interface(char const*, audio_hw_device_t**) couldn't load audio hw module audio.usb (No such file or directory)
+I/mediaserver( 5945): INFO	ste_adm_client_connect: Local Socket 22 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5945): INFO	ste_adm_client_connect: Succesfully connected to ADM
+W/AudioFlinger( 5947): findSuitableHwDev_l() loading well know audio hw modules
+W/AudioFlinger( 5947): loadHwModule() module primary already loaded
+W/AudioFlinger( 5947): loadHwModule() module a2dp already loaded
+E/AudioFlinger( 5947): int android::load_audio_interface(char const*, audio_hw_device_t**) couldn't load audio hw module audio.usb (No such file or directory)
+I/mediaserver( 5945): INFO	ste_adm_client_connect: Local Socket 23 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+W/AudioFlinger( 5947): Thread AudioOut_6 cannot connect to the power manager service
+I/mediaserver( 5945): INFO	ste_adm_client_connect: Succesfully connected to ADM
+W/AudioFlinger( 5947): findSuitableHwDev_l() loading well know audio hw modules
+W/AudioFlinger( 5947): loadHwModule() module primary already loaded
+W/AudioFlinger( 5947): loadHwModule() module a2dp already loaded
+W/AudioFlinger( 5947): Thread AudioOut_7 cannot connect to the power manager service
+E/AudioFlinger( 5947): int android::load_audio_interface(char const*, audio_hw_device_t**) couldn't load audio hw module audio.usb (No such file or directory)
+I/mediaserver( 5945): INFO	ste_adm_client_connect: Local Socket 24 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5945): INFO	ste_adm_client_connect: Succesfully connected to ADM
+W/AudioFlinger( 5947): Thread AudioOut_8 cannot connect to the power manager service
+I/mediaserver( 5945): INFO	ste_adm_client_connect: Local Socket 25 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5945): INFO	ste_adm_client_connect: Succesfully connected to ADM
+I/mediaserver( 5945): INFO	ste_adm_client_disconnect: Local socket 25 closed
+I/mediaserver( 5945): INFO	ste_adm_get_2nd_modem_connect_state: ste_adm_get_2nd_modem_connect_state state = 0
+I/mediaserver( 5945): INFO	ste_adm_client_connect: Local Socket 27 created, Trying to connect to remote(server) socket /data/local/tmp/adm-socket
+I/mediaserver( 5945): INFO	ste_adm_client_connect: Succesfully connected to ADM
+E/dalvikvm( 6084): Out-of-order entry types: 0x922 then 0x922
+E/dalvikvm( 6084): Trouble with item 634 @ offset 0xcab9c
+E/dalvikvm( 6084): Cross-item verify of section type 1003 failed
+E/dalvikvm( 6084): ERROR: Byte swap + verify failed
+E/dalvikvm( 6084): Optimization failed
+W/dalvikvm( 6083): DexOpt: --- END 'framework2.jar' --- status=0xff00, process failed
+E/dalvikvm( 6083): Unable to extract+optimize DEX from '/system/framework/framework2.jar'
+E/JNIHelp ( 6083): Native registration unable to find class 'com/android/internal/os/RuntimeInit', aborting
+F/libc    ( 6083): Fatal signal 11 (SIGSEGV) at 0xdeadbaad (code=1), thread 6083 (zygote)
+I/DEBUG   ( 1538): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 1538): Build fingerprint: 'htccn_chs_cmcc/prototd/prototd:4.1.1/T329T_R_2.2.59.49/T329T_R_2.2.59.49:user/test-keys'
+I/DEBUG   ( 1538): pid: 6083, tid: 6083, name: zygote  >>> zygote <<<
+I/DEBUG   ( 1538): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr deadbaad
+I/DEBUG   ( 1538):     r0 00000027  r1 deadbaad  r2 00000000  r3 00000000
+I/DEBUG   ( 1538):     r4 00000000  r5 bedcf8dc  r6 80000000  r7 00000003
+I/DEBUG   ( 1538):     r8 40279ce0  r9 400b2061  sl 400b2034  fp 400b206a
+I/DEBUG   ( 1538):     ip 400a7fe0  sp bedcf8d8  lr 4006c1b1  pc 4006c1da  cpsr 60000030
+I/DEBUG   ( 1538):     d0  74726f6261202c27  d1  65746e692f64696f
+I/DEBUG   ( 1538):     d2  2f736f2f6c616e72  d3  49656d69746e7552
+I/DEBUG   ( 1538):     d4  0000000000000000  d5  0000000000000000
+I/DEBUG   ( 1538):     d6  0074006100570072  d7  006f006400680063
+I/DEBUG   ( 1538):     d8  0000000000000000  d9  0000000000000000
+I/DEBUG   ( 1538):     d10 0000000000000000  d11 0000000000000000
+I/DEBUG   ( 1538):     d12 0000000000000000  d13 0000000000000000
+I/DEBUG   ( 1538):     d14 0000000000000000  d15 0000000000000000
+I/DEBUG   ( 1538):     d16 0000000000000044  d17 0000000000000000
+I/DEBUG   ( 1538):     d18 0000000000000000  d19 0000000000000000
+I/DEBUG   ( 1538):     d20 0000000000000000  d21 0000000000000000
+I/DEBUG   ( 1538):     d22 0000000000000000  d23 0000000000000000
+I/DEBUG   ( 1538):     d24 0000000000000000  d25 0000000000000000
+I/DEBUG   ( 1538):     d26 0000000000000000  d27 0000000000000000
+I/DEBUG   ( 1538):     d28 0000000000000000  d29 0000000000000000
+I/DEBUG   ( 1538):     d30 0000000000000000  d31 0000000000000000
+I/DEBUG   ( 1538):     scr 60000010
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): backtrace:
+I/DEBUG   ( 1538):     #00  pc 000181da  /system/lib/libc.so
+I/DEBUG   ( 1538):     #01  pc 0000dbe4  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 1538):     #02  pc 000009e9  /system/lib/libnativehelper.so (jniRegisterNativeMethods+128)
+I/DEBUG   ( 1538):     #03  pc 0004fb1b  /system/lib/libandroid_runtime.so (android::AndroidRuntime::startReg(_JNIEnv*)+34)
+I/DEBUG   ( 1538):     #04  pc 0004fc55  /system/lib/libandroid_runtime.so (android::AndroidRuntime::start(char const*, char const*)+260)
+I/DEBUG   ( 1538):     #05  pc 00000e53  /system/bin/app_process
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): stack:
+I/DEBUG   ( 1538):          bedcf898  40db0908  
+I/DEBUG   ( 1538):          bedcf89c  415548c0  /dev/ashmem/dalvik-heap (deleted)
+I/DEBUG   ( 1538):          bedcf8a0  4153eb20  [heap]
+I/DEBUG   ( 1538):          bedcf8a4  41556798  /dev/ashmem/dalvik-heap (deleted)
+I/DEBUG   ( 1538):          bedcf8a8  00000000  
+I/DEBUG   ( 1538):          bedcf8ac  4006ae71  /system/lib/libc.so (free+12)
+I/DEBUG   ( 1538):          bedcf8b0  00001000  
+I/DEBUG   ( 1538):          bedcf8b4  40db0908  
+I/DEBUG   ( 1538):          bedcf8b8  415548c0  /dev/ashmem/dalvik-heap (deleted)
+I/DEBUG   ( 1538):          bedcf8bc  00000000  
+I/DEBUG   ( 1538):          bedcf8c0  00000003  
+I/DEBUG   ( 1538):          bedcf8c4  4006969d  /system/lib/libc.so (dlfree+56)
+I/DEBUG   ( 1538):          bedcf8c8  40069665  /system/lib/libc.so (dlfree)
+I/DEBUG   ( 1538):          bedcf8cc  40db0908  
+I/DEBUG   ( 1538):          bedcf8d0  df0027ad  
+I/DEBUG   ( 1538):          bedcf8d4  00000000  
+I/DEBUG   ( 1538):     #00  bedcf8d8  bedcf8f4  [stack]
+I/DEBUG   ( 1538):          bedcf8dc  fffffbdf  
+I/DEBUG   ( 1538):          bedcf8e0  00000000  
+I/DEBUG   ( 1538):          bedcf8e4  4153e6c8  [heap]
+I/DEBUG   ( 1538):          bedcf8e8  4024bc32  /system/lib/libandroid_runtime.so
+I/DEBUG   ( 1538):          bedcf8ec  688f63ed  
+I/DEBUG   ( 1538):          bedcf8f0  4153e6c8  [heap]
+I/DEBUG   ( 1538):          bedcf8f4  4153e6c8  [heap]
+I/DEBUG   ( 1538):          bedcf8f8  4024bc32  /system/lib/libandroid_runtime.so
+I/DEBUG   ( 1538):          bedcf8fc  40061be8  /system/lib/libc.so (__pthread_clone)
+I/DEBUG   ( 1538):     #01  bedcf900  688f63ed  
+I/DEBUG   ( 1538):          bedcf904  400a59ed  /system/lib/libnativehelper.so (jniRegisterNativeMethods+132)
+I/DEBUG   ( 1538):     #02  bedcf908  4153e6c8  [heap]
+I/DEBUG   ( 1538):          bedcf90c  00000000  
+I/DEBUG   ( 1538):          bedcf910  4153e6c8  [heap]
+I/DEBUG   ( 1538):          bedcf914  00000001  
+I/DEBUG   ( 1538):          bedcf918  40275d60  /system/lib/libandroid_runtime.so
+I/DEBUG   ( 1538):          bedcf91c  400b203b  /system/bin/app_process
+I/DEBUG   ( 1538):          bedcf920  400b209b  /system/bin/app_process
+I/DEBUG   ( 1538):          bedcf924  401ccb1d  /system/lib/libandroid_runtime.so (android::AndroidRuntime::startReg(_JNIEnv*)+36)
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near r5:
+I/DEBUG   ( 1538):     bedcf8bc 00000000 00000003 4006969d 40069665  ...........@e..@
+I/DEBUG   ( 1538):     bedcf8cc 40db0908 df0027ad 00000000 bedcf8f4  ...@.'..........
+I/DEBUG   ( 1538):     bedcf8dc fffffbdf 00000000 4153e6c8 4024bc32  ..........SA2.$@
+I/DEBUG   ( 1538):     bedcf8ec 688f63ed 4153e6c8 4153e6c8 4024bc32  .c.h..SA..SA2.$@
+I/DEBUG   ( 1538):     bedcf8fc 40061be8 688f63ed 400a59ed 4153e6c8  ...@.c.h.Y.@..SA
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near r6:
+I/DEBUG   ( 1538):     7fffffe0 ffffffff ffffffff ffffffff ffffffff  ................
+I/DEBUG   ( 1538):     7ffffff0 ffffffff ffffffff ffffffff ffffffff  ................
+I/DEBUG   ( 1538):     80000000 ffffffff ffffffff ffffffff ffffffff  ................
+I/DEBUG   ( 1538):     80000010 ffffffff ffffffff ffffffff ffffffff  ................
+I/DEBUG   ( 1538):     80000020 ffffffff ffffffff ffffffff ffffffff  ................
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near r8:
+I/DEBUG   ( 1538):     40279cc0 401cb3ac 4024bb98 4024b818 401cb2f4  ...@..$@..$@...@
+I/DEBUG   ( 1538):     40279cd0 4024bba4 4024b818 401cb23c 00000018  ..$@..$@<..@....
+I/DEBUG   ( 1538):     40279ce0 4024c2d5 4024c2e6 401cbd85 4024c2ea  ..$@..$@...@..$@
+I/DEBUG   ( 1538):     40279cf0 4024c2e6 401cbd99 4024c2fb 4024c317  ..$@...@..$@..$@
+I/DEBUG   ( 1538):     40279d00 401cbdad 00000080 4024c506 4024c51f  ...@......$@..$@
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near r9:
+I/DEBUG   ( 1538):     400b2040 7379732d 2d6d6574 76726573 00007265  -system-server..
+I/DEBUG   ( 1538):     400b2050 6c707061 74616369 006e6f69 6c6f6f74  application.tool
+I/DEBUG   ( 1538):     400b2060 7a2d2d00 746f6779 2d2d0065 72617473  .--zygote.--star
+I/DEBUG   ( 1538):     400b2070 79732d74 6d657473 7265732d 00726576  t-system-server.
+I/DEBUG   ( 1538):     400b2080 70612d2d 63696c70 6f697461 2d2d006e  --application.--
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near sl:
+I/DEBUG   ( 1538):     400b2014 20726964 72617473 6c632d74 2d737361  dir start-class-
+I/DEBUG   ( 1538):     400b2024 656d616e 706f5b20 6e6f6974 000a5d73  name [options]..
+I/DEBUG   ( 1538):     400b2034 6f67797a 73006574 74726174 7379732d  zygote.start-sys
+I/DEBUG   ( 1538):     400b2044 2d6d6574 76726573 00007265 6c707061  tem-server..appl
+I/DEBUG   ( 1538):     400b2054 74616369 006e6f69 6c6f6f74 7a2d2d00  ication.tool.--z
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near fp:
+I/DEBUG   ( 1538):     400b2048 76726573 00007265 6c707061 74616369  server..applicat
+I/DEBUG   ( 1538):     400b2058 006e6f69 6c6f6f74 7a2d2d00 746f6779  ion.tool.--zygot
+I/DEBUG   ( 1538):     400b2068 2d2d0065 72617473 79732d74 6d657473  e.--start-system
+I/DEBUG   ( 1538):     400b2078 7265732d 00726576 70612d2d 63696c70  -server.--applic
+I/DEBUG   ( 1538):     400b2088 6f697461 2d2d006e 6563696e 6d616e2d  ation.--nice-nam
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near ip:
+I/DEBUG   ( 1538):     400a7fc0 400a4a6c 00000000 00000000 00000000  lJ.@............
+I/DEBUG   ( 1538):     400a7fd0 400769e9 400704dd 400b6b8d 400b6581  .i.@...@.k.@.e.@
+I/DEBUG   ( 1538):     400a7fe0 40061be0 400769b1 4006e8f1 400b632d  ...@.i.@...@-c.@
+I/DEBUG   ( 1538):     400a7ff0 4006ae65 4007e765 40072cfd 400730b5  e..@e..@.,.@.0.@
+I/DEBUG   ( 1538):     400a8000 00000018 00000000 00000000 00000000  ................
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory near sp:
+I/DEBUG   ( 1538):     bedcf8b8 415548c0 00000000 00000003 4006969d  .HUA...........@
+I/DEBUG   ( 1538):     bedcf8c8 40069665 40db0908 df0027ad 00000000  e..@...@.'......
+I/DEBUG   ( 1538):     bedcf8d8 bedcf8f4 fffffbdf 00000000 4153e6c8  ..............SA
+I/DEBUG   ( 1538):     bedcf8e8 4024bc32 688f63ed 4153e6c8 4153e6c8  2.$@.c.h..SA..SA
+I/DEBUG   ( 1538):     bedcf8f8 4024bc32 40061be8 688f63ed 400a59ed  2.$@...@.c.h.Y.@
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): code around pc:
+I/DEBUG   ( 1538):     4006c1b8 e000b164 6823461c d1fb2b00 68e3e026  d....F#h.+..&..h
+I/DEBUG   ( 1538):     4006c1c8 4a17b123 447a2401 47986014 20274911  #..J.$zD.`.G.I' 
+I/DEBUG   ( 1538):     4006c1d8 70082400 ec34f7f4 f7f52106 a902ed74  .$.p..4..!..t...
+I/DEBUG   ( 1538):     4006c1e8 f04f2006 460a5380 94029304 f7f59403  . O..S.F........
+I/DEBUG   ( 1538):     4006c1f8 4629e952 20024622 e95af7f5 ec20f7f4  R.)F"F. ..Z... .
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): code around lr:
+I/DEBUG   ( 1538):     4006c190 f46f4923 b5306084 4479b087 ad066809  #Io..`0...yD.h..
+I/DEBUG   ( 1538):     4006c1a0 f8452200 20020d14 4629680c e984f7f5  ."E.... .h)F....
+I/DEBUG   ( 1538):     4006c1b0 447b4b1c b96b681b e000b164 6823461c  .K{D.hk.d....F#h
+I/DEBUG   ( 1538):     4006c1c0 d1fb2b00 68e3e026 4a17b123 447a2401  .+..&..h#..J.$zD
+I/DEBUG   ( 1538):     4006c1d0 47986014 20274911 70082400 ec34f7f4  .`.G.I' .$.p..4.
+I/DEBUG   ( 1538): 
+I/DEBUG   ( 1538): memory map around fault addr deadbaad:
+I/DEBUG   ( 1538):     bedaf000-bedd0000 [stack]
+I/DEBUG   ( 1538):     (no map for address)
+I/DEBUG   ( 1538):     ffff0000-ffff1000 [vectors]
