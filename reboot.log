@@ -1,0 +1,1295 @@
+--------- beginning of /dev/log/system
+I/ActivityManager( 4146): Waited long enough for: ServiceRecord{42121e28 u0 com.android.providers.media/.MediaScannerService}
+I/ActivityManager( 4146): Resuming delayed broadcast
+--------- beginning of /dev/log/main
+V/Zygote  ( 5398): Switching descriptor 33 to /dev/null
+V/Zygote  ( 5398): Switching descriptor 10 to /dev/null
+I/ActivityManager( 4146): Start proc com.baidu.BaiduMap:bdservice_v1 for broadcast com.baidu.BaiduMap/com.baidu.android.pushservice.PushServiceReceiver: pid=5398 uid=10027 gids={50027, 1028, 1015, 1006, 3003, 3002, 3001}
+D/ActivityThread( 5398): handleBindApplication:com.baidu.BaiduMap:bdservice_v1
+D/ActivityThread( 5398): setTargetHeapUtilization:0.75
+D/ActivityThread( 5398): setTargetHeapMinFree:2097152
+I/PowerManagerService( 4146): Waking up from sleep...
+V/KeyguardServiceDelegate( 4146): onScreenTurnedOn(showListener = com.android.internal.policy.impl.PhoneWindowManager$17@41cc6818)
+D/lights  ( 4146): set_light_buttons: 1
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+I/ActivityManager( 4146): Waited long enough for: ServiceRecord{42157ab8 u0 com.baiyi_mobile.lightapp/com.baidu.android.pushservice.PushService}
+I/ActivityManager( 4146): Waited long enough for: ServiceRecord{42109398 u0 com.baidu.BaiduMap/com.baidu.location.f}
+D/PowerManagerService-JNI( 4146): Excessive delay in autosuspend_disable() while turning screen on: 295ms
+D/SurfaceFlinger( 1904): Screen acquired, type=0 flinger=0x408cc450
+I/SpaceLockScreen( 4319): onResume,mContext=com.android.keyguard.KeyguardService@41c76628mEnable3dLayer:true
+I/iNemoSensor( 4146): enable(): handle(6), en(1), what(4)
+D/AkmSensor( 4146): akm_enable_sensor: Accel is enabled. (orien = 0)
+I/AkmSensor( 4146): enable_accelerometer, mEnabled = 0, enable = 1
+I/iNemoSensor( 4146): enable:373 gyro_dps = 0 .
+D/iNemoSensor( 4146): enableDev() : path(/sys/class/input/event4/device/enable), val(1)
+D/iNemoSensor( 4146): enable(): MASK_ACC (1) MASK_MAG (4) MASK_GYR (2)
+D/iNemoSensor( 4146): enable(): mEnAcc(1) mEnMag(1) mEnGyr(1)
+I/iNemoSensor( 4146): iNemoSensor::skip update_delay wanted_gyro = -1 current delay = -1
+I/iNemoSensor( 4146): skip update_delay wanted_accel = -1 current delay = -1
+D/iNemoSensor( 4146): setDelay(): handle(6), en(20000000)
+I/iNemoSensor( 4146): iNemoSensor::update_delay wanted_gyro = 20000000
+I/iNemoSensor( 4146): update_delay wanted_accel = 20000000
+D/iNemoSensor( 4146): setDelay(): handle(6), en(20000000)
+I/iNemoSensor( 4146): iNemoSensor::skip update_delay wanted_gyro = 20000000 current delay = 20000000
+I/iNemoSensor( 4146): skip update_delay wanted_accel = 20000000 current delay = 20000000
+I/VolumePanel( 4146): changeOverlayStyle : 1
+D/SpaceLockScreen( 4319): miss msg count:0
+I/VolumePanel( 4146): changeOverlayStyle : 1
+D/SpaceLockScreen( 4319): miss call count:0
+I/VolumePanel( 4146): changeOverlayStyle : 1
+I/VolumePanel( 4146): changeOverlayStyle : 1
+V/KeyguardServiceDelegate( 4146): **** SHOWN CALLED ****
+I/WindowManager( 4146): Lock screen displayed!
+D/DisplayPowerController( 4146): Unblocked screen on after 245062 ms
+D/TextureHelper( 4319): begin decode textures
+D/TextureHelper( 4319): decode texture 0
+I/PushServiceReceiver( 5398): start PushSerevice for ACTION_BOOT_COMPLETED or CONNECTIVITY_ACTION
+I/TargetHandlePanel( 4319): level:58,plugged:2
+W/ContextImpl( 4449): Implicit intents with startService are not safe: Intent { act=com.baidu.ubc.collector.system.ACTION.HANDLE_EVENT (has extras) } android.content.ContextWrapper.startService:494 com.baidu.ubc.sysmetric.runningduration.ScreenChangedReceiver.onReceive:-1 android.app.LoadedApk$ReceiverDispatcher$Args.run:766 
+W/ContextImpl( 4449): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1543 android.content.ContextWrapper.startService:494 com.baidu.ubc.sysmetric.runningduration.ScreenChangedReceiver.onReceive:-1 android.app.LoadedApk$ReceiverDispatcher$Args.run:766 android.os.Handler.handleCallback:733 
+W/Settings( 4563): Setting mobile_data has moved from android.provider.Settings.Secure to android.provider.Settings.Global, returning global URI.
+E/WifiNative-wlan0( 4146): doBoolean: disable
+D/SmartPowerService( 4146): receive broadcast! action = android.intent.action.SCREEN_ON
+D/TextureHelper( 4319): wait update texture 0
+D/TextureHelper( 4319): finish update texture 0
+D/TextureHelper( 4319): decode texture 1
+D/TextureHelper( 4319): wait update texture 1
+D/TextureHelper( 4319): finish update texture 1
+D/TextureHelper( 4319): decode texture 2
+D/TextureHelper( 4319): wait update texture 2
+D/TextureHelper( 4319): finish update texture 2
+D/TextureHelper( 4319): decode texture 3
+D/TextureHelper( 4319): wait update texture 3
+W/System.err( 4563): java.net.UnknownHostException: Unable to resolve host "m.baidu.com": No address associated with hostname
+W/System.err( 4563): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:424)
+W/System.err( 4563): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:236)
+W/System.err( 4563): 	at java.net.InetAddress.getAllByName(InetAddress.java:214)
+W/System.err( 4563): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 4563): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 4563): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 4563): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 4563): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 4563): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 4563): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 4563): 	at com.baidu.appsearch.d.ai.run(Unknown Source)
+W/System.err( 4563): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 4563): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 4563): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 4563): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 4563): 	at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 4563): 	at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:61)
+W/System.err( 4563): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:405)
+W/System.err( 4563): 	... 13 more
+I/Process ( 5398): Sending signal. PID: 5398 SIG: 9
+D/TextureHelper( 4319): finish update texture 3
+I/ActivityManager( 4146): Process com.baidu.BaiduMap:bdservice_v1 (pid 5398) has died.
+E/FPS     ( 4319): FPS:10.489511
+I/VolumePanel( 4146): changeOverlayStyle : 1
+W/ContextImpl( 4700): Implicit intents with startService are not safe: Intent { act=com.baidu.appupdate.ACTION_CHECK_UPDATES (has extras) } android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.baidu.appupdate.receiver.UpdateServiceReceiver.onReceive:-1 
+W/ContextImpl( 4449): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1543 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.baidu.register.RegisterReceiver.onReceive:-1 android.app.ActivityThread.handleReceiver:2445 
+W/ContextImpl( 4449): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1543 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.baidu.register.RegisterReceiver.onReceive:-1 android.app.ActivityThread.handleReceiver:2445 
+W/ContextImpl( 4449): Implicit intents with startService are not safe: Intent { act=com.baidu.yi.ubc.ACTION_START_SERVICE } android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.baidu.ubc.server.UBCReceiver.onReceive:-1 
+W/ContextImpl( 4449): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1543 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.baidu.ubc.server.UBCReceiver.onReceive:-1 android.app.ActivityThread.handleReceiver:2445 
+W/ContextImpl( 4449): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1543 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.baidu.ubc.sysmetric.SysMetricCollectorReceiver.c:-1 com.baidu.ubc.sysmetric.SysMetricCollectorReceiver.onReceive:-1 
+W/ContextImpl( 4449): Implicit intents with startService are not safe: Intent { act=com.baidu.ubc.collector.system.ACTION.HANDLE_EVENT (has extras) } android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.baidu.ubc.sysmetric.SysMetricCollectorReceiver.c:-1 
+V/Zygote  ( 5458): Switching descriptor 33 to /dev/null
+V/Zygote  ( 5458): Switching descriptor 10 to /dev/null
+I/ActivityManager( 4146): Start proc com.baidu.thememanager.ui for broadcast com.baidu.thememanager.ui/com.baidu.thememanager.receiver.DownloadReceiver: pid=5458 uid=10037 gids={50037, 1028, 1015, 2001, 3003, 1004, 2002}
+I/dalvikvm( 5458): Enabling JNI app bug workarounds for target SDK version 10...
+E/FPS     ( 4319): FPS:31.496063
+D/ActivityThread( 5458): handleBindApplication:com.baidu.thememanager.ui
+D/ActivityThread( 5458): setTargetHeapUtilization:0.75
+D/ActivityThread( 5458): setTargetHeapMinFree:2097152
+I/BaiduTheme( 5458): StorageUtil: has external card ? true
+I/BaiduTheme( 5458): StorageStatusMonitor: registerMonitor
+W/Settings( 5458): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+D/DownloadReceiver( 5458): action:android.intent.action.BOOT_COMPLETED
+V/Zygote  ( 5479): Switching descriptor 33 to /dev/null
+V/Zygote  ( 5479): Switching descriptor 10 to /dev/null
+I/ActivityManager( 4146): Start proc com.baidu.android.ota for broadcast com.baidu.android.ota/.receiver.ExternalReceiver: pid=5479 uid=10039 gids={50039, 2001, 3003, 1028, 1015}
+D/ActivityThread( 5479): handleBindApplication:com.baidu.android.ota
+D/ActivityThread( 5479): setTargetHeapUtilization:0.75
+W/System.err( 5458): java.net.UnknownHostException: http:d//os.baidu.com/theme/getWhiteListFile
+D/ActivityThread( 5479): setTargetHeapMinFree:2097152
+W/System.err( 5458): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:279)
+W/System.err( 5458): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 5458): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 5458): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 5458): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:296)
+W/System.err( 5458): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:179)
+W/System.err( 5458): 	at com.baidu.thememanager.ui.ComponentManager$1.doInBackground(ComponentManager.java:442)
+W/System.err( 5458): 	at com.baidu.thememanager.ui.ComponentManager$1.doInBackground(ComponentManager.java:435)
+W/System.err( 5458): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+W/System.err( 5458): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 5458): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 5458): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 5458): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 5458): java.lang.NullPointerException
+W/System.err( 5458): 	at com.baidu.thememanager.ui.ComponentManager$1.doInBackground(ComponentManager.java:453)
+W/System.err( 5458): 	at com.baidu.thememanager.ui.ComponentManager$1.doInBackground(ComponentManager.java:435)
+W/System.err( 5458): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+W/System.err( 5458): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 5458): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 5458): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 5458): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 4563): java.net.UnknownHostException: Unable to resolve host "m.baidu.com": No address associated with hostname
+W/System.err( 4563): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:394)
+W/System.err( 4563): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:236)
+W/System.err( 4563): 	at java.net.InetAddress.getAllByName(InetAddress.java:214)
+W/System.err( 4563): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 4563): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 4563): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 4563): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 4563): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 4563): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 4563): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 4563): 	at com.baidu.appsearch.d.ai.run(Unknown Source)
+W/System.err( 4563): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 4563): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 4563): 	at java.lang.Thread.run(Thread.java:841)
+E/FPS     ( 4319): FPS:30.76923
+D/dalvikvm( 5479): DexOpt: --- BEGIN 'plugin-deploy.jar' (bootstrap=0) ---
+D/AkmSensor( 4146): ST2 = 4, AKRET_DATA_READERROR is occured, same data will be used.
+I/VolumePanel( 4146): changeOverlayStyle : 1
+E/FPS     ( 4319): FPS:31.620554
+I/TargetHandlePanel( 4319): mState=com.baidu.internal.keyguard.space.TargetView$StateTouch@41d1abc0
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+W/System.err( 4563): java.net.UnknownHostException: Unable to resolve host "m.baidu.com": No address associated with hostname
+W/System.err( 4563): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:424)
+W/System.err( 4563): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:236)
+W/System.err( 4563): 	at java.net.InetAddress.getAllByName(InetAddress.java:214)
+W/System.err( 4563): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 4563): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 4563): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 4563): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 4563): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 4563): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 4563): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 4563): 	at com.baidu.appsearch.d.ai.run(Unknown Source)
+W/System.err( 4563): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 4563): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 4563): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 4563): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 4563): 	at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 4563): 	at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:61)
+W/System.err( 4563): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:405)
+W/System.err( 4563): 	... 13 more
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+E/FPS     ( 4319): FPS:30.592733
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+I/TargetHandlePanel( 4319): mState=com.baidu.internal.keyguard.space.TargetView$StateMessageHover@41d1abd8
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+V/LightsService( 4146): setBrightnessBaidu, button light off: false, button brightness: 255
+I/ActivityManager( 4146): START u0 {act=android.intent.action.MAIN typ=vnd.android-dir/mms-sms flg=0x34000000 cmp=com.android.contacts/com.android.mms.ui.ConversationList} from pid 4319
+D/dalvikvm( 5494): DexOpt: load 89ms, verify+opt 629ms, 953764 bytes
+D/dalvikvm( 5479): DexOpt: --- END 'plugin-deploy.jar' (success) ---
+D/dalvikvm( 5479): DEX prep '/data/data/com.baidu.android.ota/app_push_lib/plugin-deploy.jar': unzip in 12ms, rewrite 1259ms
+D/AkmSensor( 4146): ST2 = 4, AKRET_DATA_READERROR is occured, same data will be used.
+E/FPS     ( 4319): FPS:31.128405
+I/WindowManager( 4146): Screenshot max retries 4 of Token{42012a98 ActivityRecord{42012820 u0 com.baidu.setupwizard/.WelcomeActivity t1}} appWin=Window{42281848 u0 com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity} drawState=4
+W/WindowManager( 4146): Screenshot failure taking screenshot for (720x1280) to layer 21005
+I/Timeline( 4496): Timeline: Activity_idle id: android.os.BinderProxy@41c73b30 time:248440
+V/Zygote  ( 5498): Switching descriptor 33 to /dev/null
+V/Zygote  ( 5498): Switching descriptor 10 to /dev/null
+I/ActivityManager( 4146): Start proc com.baidu.android.ota:bdservice_v1 for broadcast com.baidu.android.ota/com.baidu.android.pushservice.PushServiceReceiver: pid=5498 uid=10039 gids={50039, 2001, 3003, 1028, 1015}
+I/ContactsIntentResolver( 4843): Called with action: android.intent.action.MAIN
+E/libEGL  ( 4319): call to OpenGL ES API with no current context (logged once per thread)
+E/TemplateRenderThread( 4319): quit render thread
+I/wpa_supplicant( 4699): wlan0: CTRL-EVENT-SCAN-STARTED 
+D/dalvikvm( 4146): --- called into dvmAbstractMethodStub
+W/dalvikvm( 4146): threadid=12: thread exiting with uncaught exception (group=0x4181ece0)
+D/ActivityThread( 5498): handleBindApplication:com.baidu.android.ota:bdservice_v1
+D/ActivityThread( 5498): setTargetHeapUtilization:0.75
+D/ActivityThread( 5498): setTargetHeapMinFree:2097152
+E/AndroidRuntime( 4146): *** FATAL EXCEPTION IN SYSTEM PROCESS: WindowManager
+E/AndroidRuntime( 4146): java.lang.AbstractMethodError: abstract method not implemented
+E/AndroidRuntime( 4146): 	at com.android.internal.policy.impl.PhoneWindowManager.isImmersiveMode(PhoneWindowManager.java)
+E/AndroidRuntime( 4146): 	at com.android.server.wm.WindowManagerService.applyAnimationLocked(WindowManagerService.java:3336)
+E/AndroidRuntime( 4146): 	at com.android.server.wm.WindowManagerService.setTokenVisibilityLocked(WindowManagerService.java:4337)
+E/AndroidRuntime( 4146): 	at com.android.server.wm.WindowManagerService.handleAppTransitionReadyLocked(WindowManagerService.java:8743)
+E/AndroidRuntime( 4146): 	at com.android.server.wm.WindowManagerService.performLayoutAndPlaceSurfacesLockedInner(WindowManagerService.java:9384)
+E/AndroidRuntime( 4146): 	at com.android.server.wm.WindowManagerService.performLayoutAndPlaceSurfacesLockedLoop(WindowManagerService.java:8345)
+E/AndroidRuntime( 4146): 	at com.android.server.wm.WindowManagerService.performLayoutAndPlaceSurfacesLocked(WindowManagerService.java:8287)
+E/AndroidRuntime( 4146): 	at com.android.server.wm.WindowManagerService.access$400(WindowManagerService.java:160)
+E/AndroidRuntime( 4146): 	at com.android.server.wm.WindowManagerService$H.handleMessage(WindowManagerService.java:7321)
+E/AndroidRuntime( 4146): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 4146): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime( 4146): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+D/PhoneStatusBar( 4319): disable: < EXPAND icons alerts ticker system_info BACK HOME recent* CLOCK SEARCH >
+D/BaiduKeyguardManager( 4319): sys.product_default_lock_mode -1
+D/BaiduKeyguardManager( 4319): total memory:831
+D/BaiduKeyguardManager( 4319): total memory:831
+E/BaiduKeyguardManager( 4319): sys.product_default_lock_mode aboveCertainMemory 10
+I/TargetHandlePanel( 4319): mState=com.baidu.internal.keyguard.space.TargetView$StateIdle@41d1aba8
+I/Process ( 4146): Sending signal. PID: 4146 SIG: 9
+I/ServiceManager( 1894): service 'power' died
+I/ServiceManager( 1894): service 'sensorservice' died
+I/ServiceManager( 1894): service 'scheduling_policy' died
+I/ServiceManager( 1894): service 'user' died
+I/ServiceManager( 1894): service 'batterystats' died
+I/ServiceManager( 1894): service 'usagestats' died
+I/ServiceManager( 1894): service 'appops' died
+I/ServiceManager( 1894): service 'display' died
+I/ServiceManager( 1894): service 'telephony.registry' died
+I/ServiceManager( 1894): service 'mount' died
+I/ServiceManager( 1894): service 'entropy' died
+I/ServiceManager( 1894): service 'package' died
+I/ServiceManager( 1894): service 'activity' died
+I/ServiceManager( 1894): service 'procstats' died
+I/ServiceManager( 1894): service 'meminfo' died
+I/ServiceManager( 1894): service 'gfxinfo' died
+I/ServiceManager( 1894): service 'dbinfo' died
+I/ServiceManager( 1894): service 'cpuinfo' died
+I/ServiceManager( 1894): service 'statusbar' died
+I/ServiceManager( 1894): service 'device_policy' died
+I/ServiceManager( 1894): service 'content' died
+I/ServiceManager( 1894): service 'account' died
+I/ServiceManager( 1894): service 'lock_settings' died
+I/ServiceManager( 1894): service 'devicestoragemonitor' died
+I/ServiceManager( 1894): service 'alarm' died
+I/ServiceManager( 1894): service 'location' died
+I/ServiceManager( 1894): service 'input' died
+I/ServiceManager( 1894): service 'hardware' died
+I/ServiceManager( 1894): service 'battery' died
+I/ServiceManager( 1894): service 'country_detector' died
+I/ServiceManager( 1894): service 'vibrator' died
+I/ServiceManager( 1894): service 'consumer_ir' died
+I/ServiceManager( 1894): service 'wallpaper' died
+I/ServiceManager( 1894): service 'textservices' died
+I/ServiceManager( 1894): service 'clipboard' died
+I/ServiceManager( 1894): service 'torch' died
+I/ServiceManager( 1894): service 'netstats' died
+I/ServiceManager( 1894): service 'network_management' died
+I/ServiceManager( 1894): service 'netpolicy' died
+I/ServiceManager( 1894): service 'window' died
+I/ServiceManager( 1894): service 'Ifttt' died
+I/ServiceManager( 1894): service 'DynamicPermissionService' died
+I/ServiceManager( 1894): service 'NotificationDefenseService' died
+I/ServiceManager( 1894): service 'SmartPowerService' died
+I/ServiceManager( 1894): service 'bluetooth_manager' died
+I/ServiceManager( 1894): service 'BroadcastManagerService' died
+I/ServiceManager( 1894): service 'notification' died
+I/ServiceManager( 1894): service 'serial' died
+I/ServiceManager( 1894): service 'uimode' died
+I/ServiceManager( 1894): service 'accessibility' died
+I/ServiceManager( 1894): service 'input_method' died
+I/ServiceManager( 1894): service 'AccessControllManager' died
+I/ServiceManager( 1894): service 'wifip2p' died
+I/ServiceManager( 1894): service 'audio' died
+I/ServiceManager( 1894): service 'usb' died
+I/ServiceManager( 1894): service 'backup' died
+I/ServiceManager( 1894): service 'appwidget' died
+I/ServiceManager( 1894): service 'diskstats' died
+I/ServiceManager( 1894): service 'samplingprofiler' died
+I/ServiceManager( 1894): service 'commontime_management' died
+I/ServiceManager( 1894): service 'dreams' died
+I/ServiceManager( 1894): service 'assetatlas' died
+I/ServiceManager( 1894): service 'themes' died
+I/ServiceManager( 1894): service 'media_router' died
+I/ServiceManager( 1894): service 'edgegestureservice' died
+I/ServiceManager( 1894): service 'print' died
+I/ServiceManager( 1894): service 'connectivity' died
+I/ServiceManager( 1894): service 'wifi' died
+I/ServiceManager( 1894): service 'dropbox' died
+I/ServiceManager( 1894): service 'servicediscovery' died
+I/ServiceManager( 1894): service 'updatelock' died
+I/ServiceManager( 1894): service 'profile' died
+I/ServiceManager( 1894): service 'search' died
+I/ServiceManager( 1894): service 'permission' died
+W/Sensors ( 4457): sensorservice died [0x5d1e6910]
+E/WifiManager( 4943): Channel connection lost
+W/Sensors ( 4319): sensorservice died [0x5d874d70]
+W/AudioFlinger( 3896): power manager service died !!!
+E/WifiManager( 4457): Channel connection lost
+E/WifiManager( 4415): Channel connection lost
+E/WifiManager( 4319): Channel connection lost
+E/WifiManager( 4954): Channel connection lost
+E/WifiManager( 4908): Channel connection lost
+E/WifiManager( 4563): Channel connection lost
+E/WifiManager( 4423): Channel connection lost
+E/WifiManager( 5332): Channel connection lost
+D/AndroidRuntime( 5498): Shutting down VM
+W/dalvikvm( 5498): threadid=1: thread exiting with uncaught exception (group=0x4181ece0)
+D/SurfaceFlinger( 1904): Screen acquired, type=0 flinger=0x408cc450
+D/SurfaceFlinger( 1904):  screen was previously acquired
+E/ActivityThread( 5498): Failed to find provider info for com.baidu.bsy.channel
+W/Sensors ( 5332): sensorservice died [0x5d2d50e8]
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+D/OpenGLRenderer( 4496): GL error from OpenGLRenderer: 0x501
+E/OpenGLRenderer( 4496):   GL_INVALID_VALUE
+E/AndroidRuntime( 5498): FATAL EXCEPTION: main
+E/AndroidRuntime( 5498): Process: com.baidu.android.ota:bdservice_v1, PID: 5498
+E/AndroidRuntime( 5498): java.lang.RuntimeException: Unable to create application com.baidu.android.ota.OTAApplication: java.lang.NullPointerException
+E/AndroidRuntime( 5498): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4476)
+E/AndroidRuntime( 5498): 	at android.app.ActivityThread.access$1500(ActivityThread.java:144)
+E/AndroidRuntime( 5498): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1265)
+E/AndroidRuntime( 5498): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 5498): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime( 5498): 	at android.app.ActivityThread.main(ActivityThread.java:5124)
+E/AndroidRuntime( 5498): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 5498): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime( 5498): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:732)
+E/AndroidRuntime( 5498): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:566)
+E/AndroidRuntime( 5498): 	at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 5498): Caused by: java.lang.NullPointerException
+E/AndroidRuntime( 5498): 	at com.baidu.android.ota.OTAApplication.getCurrentProcessName(OTAApplication.java:46)
+E/AndroidRuntime( 5498): 	at com.baidu.android.ota.OTAApplication.onCreate(OTAApplication.java:21)
+E/AndroidRuntime( 5498): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1007)
+E/AndroidRuntime( 5498): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4473)
+E/AndroidRuntime( 5498): 	... 10 more
+I/Process ( 5498): Sending signal. PID: 5498 SIG: 9
+E/AndroidRuntime( 5498): Error reporting crash
+E/AndroidRuntime( 5498): android.os.DeadObjectException
+E/AndroidRuntime( 5498): 	at android.os.BinderProxy.transact(Native Method)
+E/AndroidRuntime( 5498): 	at android.app.ActivityManagerProxy.handleApplicationCrash(ActivityManagerNative.java:3737)
+E/AndroidRuntime( 5498): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:84)
+E/AndroidRuntime( 5498): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+E/AndroidRuntime( 5498): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+E/AndroidRuntime( 5498): 	at dalvik.system.NativeStart.main(Native Method)
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+D/OpenGLRenderer( 4496): GL error from OpenGLRenderer: 0x501
+E/OpenGLRenderer( 4496):   GL_INVALID_VALUE
+I/SpaceLockScreen( 4319): onPause,mContext=com.android.keyguard.KeyguardService@41c76628
+D/AndroidRuntime( 4319): Shutting down VM
+W/dalvikvm( 4319): threadid=1: thread exiting with uncaught exception (group=0x4181ece0)
+E/AndroidRuntime( 4319): FATAL EXCEPTION: main
+E/AndroidRuntime( 4319): Process: com.android.systemui, PID: 4319
+E/AndroidRuntime( 4319): java.lang.RuntimeException: system server dead?
+E/AndroidRuntime( 4319): 	at android.appwidget.AppWidgetHost.stopListening(AppWidgetHost.java:187)
+E/AndroidRuntime( 4319): 	at com.android.keyguard.KeyguardHostView.onDetachedFromWindow(KeyguardHostView.java:502)
+E/AndroidRuntime( 4319): 	at android.view.View.dispatchDetachedFromWindow(View.java:12627)
+E/AndroidRuntime( 4319): 	at android.view.ViewGroup.dispatchDetachedFromWindow(ViewGroup.java:2587)
+E/AndroidRuntime( 4319): 	at android.view.ViewGroup.removeViewInternal(ViewGroup.java:3845)
+E/AndroidRuntime( 4319): 	at android.view.ViewGroup.removeViewInternal(ViewGroup.java:3818)
+E/AndroidRuntime( 4319): 	at android.view.ViewGroup.removeView(ViewGroup.java:3750)
+E/AndroidRuntime( 4319): 	at com.android.keyguard.KeyguardViewManager$3.run(KeyguardViewManager.java:513)
+E/AndroidRuntime( 4319): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/AndroidRuntime( 4319): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/AndroidRuntime( 4319): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime( 4319): 	at android.app.ActivityThread.main(ActivityThread.java:5124)
+E/AndroidRuntime( 4319): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 4319): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime( 4319): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:732)
+E/AndroidRuntime( 4319): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:566)
+E/AndroidRuntime( 4319): 	at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 4319): Caused by: android.os.DeadObjectException
+E/AndroidRuntime( 4319): 	at android.os.BinderProxy.transact(Native Method)
+E/AndroidRuntime( 4319): 	at com.android.internal.appwidget.IAppWidgetService$Stub$Proxy.stopListening(IAppWidgetService.java:474)
+E/AndroidRuntime( 4319): 	at android.appwidget.AppWidgetHost.stopListening(AppWidgetHost.java:184)
+E/AndroidRuntime( 4319): 	... 16 more
+E/AndroidRuntime( 4319): Error reporting crash
+E/AndroidRuntime( 4319): android.os.DeadObjectException
+E/AndroidRuntime( 4319): 	at android.os.BinderProxy.transact(Native Method)
+E/AndroidRuntime( 4319): 	at android.app.ActivityManagerProxy.handleApplicationCrash(ActivityManagerNative.java:3737)
+E/AndroidRuntime( 4319): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:84)
+E/AndroidRuntime( 4319): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+E/AndroidRuntime( 4319): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+E/AndroidRuntime( 4319): 	at dalvik.system.NativeStart.main(Native Method)
+I/Process ( 4319): Sending signal. PID: 4319 SIG: 9
+D/libEGL  ( 5520): loaded /system/lib/egl/libEGL_mali.so
+D/libEGL  ( 5520): loaded /system/lib/egl/libGLESv1_CM_mali.so
+D/libEGL  ( 5520): loaded /system/lib/egl/libGLESv2_mali.so
+E/        ( 5520): Device driver API match
+E/        ( 5520): Device driver API version: 29
+E/        ( 5520): User space API version: 29 
+E/        ( 5520): mali: REVISION=Linux-r3p2-01rel3 BUILD_DATE=Tue Jul 22 19:59:34 KST 2014 
+E/cutils-trace( 5520): Error opening trace file: No such file or directory (2)
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+D/OpenGLRenderer( 4496): GL error from OpenGLRenderer: 0x501
+E/OpenGLRenderer( 4496):   GL_INVALID_VALUE
+E/installd( 1908): eof
+E/installd( 1908): failed to read transaction id
+I/installd( 1908): closing connection
+D/DynamicPermissionManager( 4843): Service may dead
+I/ContactPhotoManager( 4843): Cache adj: 1.0
+E/ActivityThread( 4843): Failed to find provider info for sms
+D/DynamicPermissionManager( 4843): Service may dead
+E/ActivityThread( 4843): Failed to find provider info for mms
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+D/OpenGLRenderer( 4496): GL error from OpenGLRenderer: 0x501
+E/OpenGLRenderer( 4496):   GL_INVALID_VALUE
+W/dalvikvm( 4700): threadid=11: thread exiting with uncaught exception (group=0x4181ece0)
+E/CountryDetector( 4843): detectCountry: RemoteException
+E/CountryDetector( 4843): android.os.DeadObjectException
+E/CountryDetector( 4843): 	at android.os.BinderProxy.transact(Native Method)
+E/CountryDetector( 4843): 	at android.location.ICountryDetector$Stub$Proxy.detectCountry(ICountryDetector.java:111)
+E/CountryDetector( 4843): 	at android.location.CountryDetector.detectCountry(CountryDetector.java:106)
+E/CountryDetector( 4843): 	at com.android.contacts.ContactsUtils.getCurrentCountryIso(ContactsUtils.java:191)
+E/CountryDetector( 4843): 	at com.android.contacts.dialpad.DialpadFragment.onCreate(DialpadFragment.java:714)
+E/CountryDetector( 4843): 	at android.app.Fragment.performCreate(Fragment.java:1678)
+E/CountryDetector( 4843): 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:859)
+E/CountryDetector( 4843): 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1062)
+E/CountryDetector( 4843): 	at android.app.BackStackRecord.run(BackStackRecord.java:684)
+E/CountryDetector( 4843): 	at android.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1447)
+E/CountryDetector( 4843): 	at android.app.FragmentManagerImpl.executePendingTransactions(FragmentManager.java:479)
+E/CountryDetector( 4843): 	at com.android.contacts.activities.PeopleActivity.createViewsAndFragments(PeopleActivity.java:509)
+E/CountryDetector( 4843): 	at com.android.contacts.activities.PeopleActivity.onCreate(PeopleActivity.java:322)
+E/CountryDetector( 4843): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/CountryDetector( 4843): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+E/CountryDetector( 4843): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2169)
+E/CountryDetector( 4843): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2271)
+E/CountryDetector( 4843): 	at android.app.ActivityThread.access$800(ActivityThread.java:144)
+E/CountryDetector( 4843): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1205)
+E/CountryDetector( 4843): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/CountryDetector( 4843): 	at android.os.Looper.loop(Looper.java:136)
+E/CountryDetector( 4843): 	at android.app.ActivityThread.main(ActivityThread.java:5124)
+E/CountryDetector( 4843): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/CountryDetector( 4843): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/CountryDetector( 4843): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:732)
+E/CountryDetector( 4843): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:566)
+E/CountryDetector( 4843): 	at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 4700): FATAL EXCEPTION: UpdateChecker
+E/AndroidRuntime( 4700): Process: com.baidu.bsf.service, PID: 4700
+E/AndroidRuntime( 4700): java.lang.RuntimeException: Package manager has died
+E/AndroidRuntime( 4700): 	at android.app.ApplicationPackageManager.getApplicationInfo(ApplicationPackageManager.java:223)
+E/AndroidRuntime( 4700): 	at android.app.ApplicationPackageManager.getText(ApplicationPackageManager.java:1030)
+E/AndroidRuntime( 4700): 	at android.content.ThemeDefine.interceptLabelRes(ThemeDefine.java:232)
+E/AndroidRuntime( 4700): 	at android.content.pm.PackageItemInfo.interceptLabelResBaidu(PackageItemInfo.java)
+E/AndroidRuntime( 4700): 	at android.content.pm.PackageItemInfo.loadLabel(PackageItemInfo.java:123)
+E/AndroidRuntime( 4700): 	at android.app.ApplicationPackageManager.getApplicationLabel(ApplicationPackageManager.java:1081)
+E/AndroidRuntime( 4700): 	at com.baidu.appupdate.service.AppUpdateService$b.f(Unknown Source)
+E/AndroidRuntime( 4700): 	at com.baidu.appupdate.service.AppUpdateService$b.handleMessage(Unknown Source)
+E/AndroidRuntime( 4700): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 4700): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime( 4700): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+E/AndroidRuntime( 4700): Caused by: android.os.DeadObjectException
+E/AndroidRuntime( 4700): 	at android.os.BinderProxy.transact(Native Method)
+E/AndroidRuntime( 4700): 	at android.content.pm.IPackageManager$Stub$Proxy.getApplicationInfo(IPackageManager.java:1791)
+E/AndroidRuntime( 4700): 	at android.app.ApplicationPackageManager.getApplicationInfo(ApplicationPackageManager.java:218)
+E/AndroidRuntime( 4700): 	... 10 more
+I/Process ( 4700): Sending signal. PID: 4700 SIG: 9
+E/AndroidRuntime( 4700): Error reporting crash
+E/AndroidRuntime( 4700): android.os.DeadObjectException
+E/AndroidRuntime( 4700): 	at android.os.BinderProxy.transact(Native Method)
+E/AndroidRuntime( 4700): 	at android.app.ActivityManagerProxy.handleApplicationCrash(ActivityManagerNative.java:3737)
+E/AndroidRuntime( 4700): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:84)
+E/AndroidRuntime( 4700): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+E/AndroidRuntime( 4700): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+W/ResourceType( 4843): Attempt to retrieve bag 0x0103011d which is invalid or in a cycle.
+W/dalvikvm( 4563): threadid=24: thread exiting with uncaught exception (group=0x4181ece0)
+I/Process ( 4563): Sending signal. PID: 4563 SIG: 9
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+D/OpenGLRenderer( 4496): GL error from OpenGLRenderer: 0x501
+E/OpenGLRenderer( 4496):   GL_INVALID_VALUE
+D/getHorizontalScrollView( 4843): rendayun getHorizontalScrollView
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+D/OpenGLRenderer( 4496): GL error from OpenGLRenderer: 0x501
+E/OpenGLRenderer( 4496):   GL_INVALID_VALUE
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+D/OpenGLRenderer( 4496): GL error from OpenGLRenderer: 0x501
+E/OpenGLRenderer( 4496):   GL_INVALID_VALUE
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+D/OpenGLRenderer( 4496): GL error from OpenGLRenderer: 0x501
+E/OpenGLRenderer( 4496):   GL_INVALID_VALUE
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+D/OpenGLRenderer( 4496): GL error from OpenGLRenderer: 0x501
+E/OpenGLRenderer( 4496):   GL_INVALID_VALUE
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+D/OpenGLRenderer( 4496): GL error from OpenGLRenderer: 0x501
+E/OpenGLRenderer( 4496):   GL_INVALID_VALUE
+D/DialpadFragment( 4843): DialpadFragment onCreateView Begin
+E/DisplayManager( 4843): Could not get display information from display manager.
+E/DisplayManager( 4843): android.os.DeadObjectException
+E/DisplayManager( 4843): 	at android.os.BinderProxy.transact(Native Method)
+E/DisplayManager( 4843): 	at android.hardware.display.IDisplayManager$Stub$Proxy.getDisplayInfo(IDisplayManager.java:221)
+E/DisplayManager( 4843): 	at android.hardware.display.DisplayManagerGlobal.getDisplayInfo(DisplayManagerGlobal.java:117)
+E/DisplayManager( 4843): 	at android.view.Display.updateDisplayInfoLocked(Display.java:657)
+E/DisplayManager( 4843): 	at android.view.Display.getMetrics(Display.java:585)
+E/DisplayManager( 4843): 	at com.baidu.contacts.widget.ButtonGridLayout.getMetrics(ButtonGridLayout.java:102)
+E/DisplayManager( 4843): 	at com.baidu.contacts.widget.ButtonGridLayout.<init>(ButtonGridLayout.java:89)
+E/DisplayManager( 4843): 	at java.lang.reflect.Constructor.constructNative(Native Method)
+E/DisplayManager( 4843): 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+E/DisplayManager( 4843): 	at android.view.LayoutInflater.createView(LayoutInflater.java:594)
+E/DisplayManager( 4843): 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:696)
+E/DisplayManager( 4843): 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:755)
+E/DisplayManager( 4843): 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:758)
+E/DisplayManager( 4843): 	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:839)
+E/DisplayManager( 4843): 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:745)
+E/DisplayManager( 4843): 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:758)
+E/DisplayManager( 4843): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:492)
+E/DisplayManager( 4843): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:397)
+E/DisplayManager( 4843): 	at com.android.contacts.dialpad.DialpadFragment.onCreateView(DialpadFragment.java:821)
+E/DisplayManager( 4843): 	at android.app.Fragment.performCreateView(Fragment.java:1700)
+E/DisplayManager( 4843): 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:890)
+E/DisplayManager( 4843): 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1062)
+E/DisplayManager( 4843): 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1044)
+E/DisplayManager( 4843): 	at android.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:1853)
+E/DisplayManager( 4843): 	at android.app.Activity.performCreate(Activity.java:5234)
+E/DisplayManager( 4843): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+E/DisplayManager( 4843): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2169)
+E/DisplayManager( 4843): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2271)
+E/DisplayManager( 4843): 	at android.app.ActivityThread.access$800(ActivityThread.java:144)
+E/DisplayManager( 4843): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1205)
+E/DisplayManager( 4843): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/DisplayManager( 4843): 	at android.os.Looper.loop(Looper.java:136)
+E/DisplayManager( 4843): 	at android.app.ActivityThread.main(ActivityThread.java:5124)
+E/DisplayManager( 4843): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/DisplayManager( 4843): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/DisplayManager( 4843): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:732)
+E/DisplayManager( 4843): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:566)
+E/DisplayManager( 4843): 	at dalvik.system.NativeStart.main(Native Method)
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+D/OpenGLRenderer( 4496): GL error from OpenGLRenderer: 0x501
+E/OpenGLRenderer( 4496):   GL_INVALID_VALUE
+E/ActivityThread( 4843): Failed to find provider info for com.baidu.providers.yellowpage
+E/CountryDetector( 4843): detectCountry: RemoteException
+E/CountryDetector( 4843): android.os.DeadObjectException
+E/CountryDetector( 4843): 	at android.os.BinderProxy.transact(Native Method)
+E/CountryDetector( 4843): 	at android.location.ICountryDetector$Stub$Proxy.detectCountry(ICountryDetector.java:111)
+E/CountryDetector( 4843): 	at android.location.CountryDetector.detectCountry(CountryDetector.java:106)
+E/CountryDetector( 4843): 	at com.android.contacts.ContactsUtils.getCurrentCountryIso(ContactsUtils.java:191)
+E/CountryDetector( 4843): 	at com.android.contacts.dialpad.DialerSearchController.<init>(DialerSearchController.java:98)
+E/CountryDetector( 4843): 	at com.android.contacts.dialpad.DialpadFragment.onCreateView(DialpadFragment.java:920)
+E/CountryDetector( 4843): 	at android.app.Fragment.performCreateView(Fragment.java:1700)
+E/CountryDetector( 4843): 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:890)
+E/CountryDetector( 4843): 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1062)
+E/CountryDetector( 4843): 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1044)
+E/CountryDetector( 4843): 	at android.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:1853)
+E/CountryDetector( 4843): 	at android.app.Activity.performCreate(Activity.java:5234)
+E/CountryDetector( 4843): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+E/CountryDetector( 4843): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2169)
+E/CountryDetector( 4843): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2271)
+E/CountryDetector( 4843): 	at android.app.ActivityThread.access$800(ActivityThread.java:144)
+E/CountryDetector( 4843): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1205)
+E/CountryDetector( 4843): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/CountryDetector( 4843): 	at android.os.Looper.loop(Looper.java:136)
+E/CountryDetector( 4843): 	at android.app.ActivityThread.main(ActivityThread.java:5124)
+E/CountryDetector( 4843): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/CountryDetector( 4843): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/CountryDetector( 4843): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:732)
+E/CountryDetector( 4843): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:566)
+E/CountryDetector( 4843): 	at dalvik.system.NativeStart.main(Native Method)
+E/ActivityThread( 4843): Failed to find provider info for com.baidu.providers.yellowpage
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+D/OpenGLRenderer( 4496): GL error from OpenGLRenderer: 0x501
+E/OpenGLRenderer( 4496):   GL_INVALID_VALUE
+D/DialpadFragment( 4843): DialpadFragment prepareMultiSelectView Begin
+D/DialpadFragment( 4843): DialpadFragment prepareMultiSelectView End
+D/DialpadFragment( 4843): DialpadFragment onCreateView End
+I/Zygote  ( 3891): Exit zygote because system server (4146) has terminated
+D/DynamicPermissionManager( 4843): Service may dead
+D/DynamicPermissionManager( 4843): Service may dead
+E/ActivityThread( 4843): Failed to find provider info for mms-sms
+E/ActivityThread( 4843): Failed to find provider info for mms-sms
+D/DynamicPermissionManager( 4843): Service may dead
+E/ActivityThread( 4843): Failed to find provider info for mms-sms
+E/DisplayManager( 4843): Could not get display information from display manager.
+E/DisplayManager( 4843): android.os.DeadObjectException
+E/DisplayManager( 4843): 	at android.os.BinderProxy.transact(Native Method)
+E/DisplayManager( 4843): 	at android.hardware.display.IDisplayManager$Stub$Proxy.getDisplayInfo(IDisplayManager.java:221)
+E/DisplayManager( 4843): 	at android.hardware.display.DisplayManagerGlobal.getDisplayInfo(DisplayManagerGlobal.java:117)
+E/DisplayManager( 4843): 	at android.view.Display.updateDisplayInfoLocked(Display.java:657)
+E/DisplayManager( 4843): 	at android.view.Display.updateCachedAppSizeIfNeededLocked(Display.java:681)
+E/DisplayManager( 4843): 	at android.view.Display.getWidth(Display.java:484)
+E/DisplayManager( 4843): 	at com.baidu.contacts.list.IndexViewBar.attach(IndexViewBar.java:143)
+E/DisplayManager( 4843): 	at com.android.contacts.list.ContactEntryListFragment.initIndexView(ContactEntryListFragment.java:244)
+E/DisplayManager( 4843): 	at com.android.contacts.list.ContactEntryListFragment.onStart(ContactEntryListFragment.java:399)
+E/DisplayManager( 4843): 	at android.app.Fragment.performStart(Fragment.java:1724)
+E/DisplayManager( 4843): 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:918)
+E/DisplayManager( 4843): 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1062)
+E/DisplayManager( 4843): 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1044)
+E/DisplayManager( 4843): 	at android.app.FragmentManagerImpl.dispatchStart(FragmentManager.java:1858)
+E/DisplayManager( 4843): 	at android.app.Activity.performStart(Activity.java:5247)
+E/DisplayManager( 4843): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2178)
+E/DisplayManager( 4843): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2271)
+E/DisplayManager( 4843): 	at android.app.ActivityThread.access$800(ActivityThread.java:144)
+E/DisplayManager( 4843): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1205)
+E/DisplayManager( 4843): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/DisplayManager( 4843): 	at android.os.Looper.loop(Looper.java:136)
+E/DisplayManager( 4843): 	at android.app.ActivityThread.main(ActivityThread.java:5124)
+E/DisplayManager( 4843): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/DisplayManager( 4843): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/DisplayManager( 4843): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:732)
+E/DisplayManager( 4843): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:566)
+E/DisplayManager( 4843): 	at dalvik.system.NativeStart.main(Native Method)
+D/IndexViewBar( 4843): index view location:x=144 y=0 orientation=1
+D/DynamicPermissionManager( 4843): Service may dead
+E/ActivityThread( 4843): Failed to find provider info for com.android.contacts
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+E/BufferQueue( 1904): [com.baidu.setupwizard/com.baidu.setupwizard.WelcomeActivity] dequeueBuffer: BufferQueue has been abandoned!
+E/[EGL-ERROR]( 4496): void __egl_platform_dequeue_buffer(egl_surface*):1618: failed to dequeue buffer from native window (0x5d35a658); err = -19, buf = 0x0,max_allowed_dequeued_buffers 3
+D/OpenGLRenderer( 4496): GL error from OpenGLRenderer: 0x501
+E/OpenGLRenderer( 4496):   GL_INVALID_VALUE
+I/Netd    ( 5537): Netd 1.0 starting
+I/ServiceManager( 1894): service 'media.audio_policy' died
+I/ServiceManager( 1894): service 'media.audio_flinger' died
+I/ServiceManager( 1894): service 'media.player' died
+I/ServiceManager( 1894): service 'media.camera' died
+I/ServiceManager( 1894): service 'simphonebook' died
+I/ServiceManager( 1894): service 'iphonesubinfo' died
+I/ServiceManager( 1894): service 'isms' died
+I/ServiceManager( 1894): service 'phone' died
+I/ServiceManager( 1894): service 'sip' died
+I/mediaserver( 5539): ServiceManager: 0x40e1f1b0
+I/AudioFlinger( 5539): Using default 3000 mSec as standby time.
+E/MediaPlayerFactory( 5539): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 5539): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+I/CameraService( 5539): CameraService started (pid=5539)
+I/CameraService( 5539): Loaded "m0xx Camera Wrapper" camera module
+D/SecCameraHardware( 5539): LSIHAL int android::HAL_getNumberOfCameras()
+D/AndroidRuntime( 5536): 
+D/AndroidRuntime( 5536): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 5536): CheckJNI is OFF
+I/AudioPolicyManagerBase( 5539): loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+V/audio_hw_primary( 5539): Reading configuration from /system/etc/sound/m0
+V/audio_hw_primary( 5539): Parsing control AIF2DACL Source => 0
+V/audio_hw_primary( 5539): Parsing control AIF2DACR Source => 0
+V/audio_hw_primary( 5539): Parsing control AIF2ADCL Source => 0
+V/audio_hw_primary( 5539): Parsing control AIF2ADCR Source => 1
+V/audio_hw_primary( 5539): Parsing control DAC1 Switch => 1
+V/audio_hw_primary( 5539): Parsing control IN1L ZC Switch => 0
+V/audio_hw_primary( 5539): Parsing control IN1R ZC Switch => 0
+V/audio_hw_primary( 5539): Parsing control IN2L ZC Switch => 0
+V/audio_hw_primary( 5539): Parsing control IN2R ZC Switch => 0
+V/audio_hw_primary( 5539): Parsing control Output ZC Switch => 0
+V/audio_hw_primary( 5539): Parsing control Speaker ZC Switch => 0
+V/audio_hw_primary( 5539): Parsing control Headphone ZC Switch => 0
+V/audio_hw_primary( 5539): Parsing control DAC1L Mixer AIF1.1 Switch => 1
+V/audio_hw_primary( 5539): Parsing control DAC1R Mixer AIF1.1 Switch => 1
+V/audio_hw_primary( 5539): Parsing control DAC1 Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF2DAC2L Mixer Left Sidetone Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF2DAC2L Mixer Right Sidetone Switch => 0
+V/audio_hw_primary( 5539): Parsing control AIF2DAC2R Mixer Left Sidetone Switch => 0
+V/audio_hw_primary( 5539): Parsing control AIF2DAC2R Mixer Right Sidetone Switch => 1
+V/audio_hw_primary( 5539): Parsing control DAC2 Left Sidetone Volume => 12
+V/audio_hw_primary( 5539): Parsing control DAC2 Right Sidetone Volume => 12
+V/audio_hw_primary( 5539): Parsing control DAC2 Switch => 1
+V/audio_hw_primary( 5539): Parsing control Left Headphone Mux => Mixer
+V/audio_hw_primary( 5539): Parsing control Right Headphone Mux => Mixer
+V/audio_hw_primary( 5539): Parsing control SPKL DAC1 Switch => 1
+V/audio_hw_primary( 5539): Parsing control SPKR DAC1 Switch => 1
+V/audio_hw_primary( 5539): Parsing control SPKL Boost SPKL Switch => 1
+V/audio_hw_primary( 5539): Parsing control SPKL Boost SPKR Switch => 1
+V/audio_hw_primary( 5539): Parsing control SPKR Boost SPKL Switch => 0
+V/audio_hw_primary( 5539): Parsing control SPKR Boost SPKR Switch => 1
+V/audio_hw_primary( 5539): Parsing control Speaker Mixer Volume => 3
+V/audio_hw_primary( 5539): Parsing control Left Output Mixer DAC Switch => 1
+V/audio_hw_primary( 5539): Parsing control Right Output Mixer DAC Switch => 1
+V/audio_hw_primary( 5539): Parsing control Earpiece Mixer Left Output Switch => 1
+V/audio_hw_primary( 5539): Parsing control Earpiece Mixer Right Output Switch => 1
+V/audio_hw_primary( 5539): Parsing control Earpiece Switch => 1
+V/audio_hw_primary( 5539): Parsing control LINEOUT2N Mixer Left Output Switch => 1
+V/audio_hw_primary( 5539): Parsing control LINEOUT2P Mixer Right Output Switch => 1
+V/audio_hw_primary( 5539): Parsing control LINEOUT1N Mixer Right Output Switch => 1
+V/audio_hw_primary( 5539): Parsing control LINEOUT1P Mixer Left Output Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1L Mixer ADC/DMIC Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1R Mixer ADC/DMIC Switch => 1
+V/audio_hw_primary( 5539): Parsing control IN1L PGA IN1LP Switch => 1
+V/audio_hw_primary( 5539): Parsing control IN1L PGA IN1LN Switch => 1
+V/audio_hw_primary( 5539): Parsing control MIXINL IN1L Volume => 1
+V/audio_hw_primary( 5539): Parsing control IN1L Switch => 1
+V/audio_hw_primary( 5539): Parsing control IN1R PGA IN1RP Switch => 1
+V/audio_hw_primary( 5539): Parsing control IN1R PGA IN1RN Switch => 1
+V/audio_hw_primary( 5539): Parsing control MIXINR IN1R Volume => 1
+V/audio_hw_primary( 5539): Parsing control IN1R Switch => 1
+V/audio_hw_primary( 5539): Parsing control IN2R PGA IN2RP Switch => 1
+V/audio_hw_primary( 5539): Parsing control IN2R PGA IN2RN Switch => 1
+V/audio_hw_primary( 5539): Parsing control MIXINR IN2R Volume => 1
+V/audio_hw_primary( 5539): Parsing control IN2R Switch => 1
+V/audio_hw_primary( 5539): Parsing control IN2L PGA IN2LP Switch => 1
+V/audio_hw_primary( 5539): Parsing control IN2L PGA IN2LN Switch => 1
+V/audio_hw_primary( 5539): Parsing control MIXINL IN2L Volume => 1
+V/audio_hw_primary( 5539): Parsing control IN2L Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1L Mixer ADC/DMIC Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1R Mixer ADC/DMIC Switch => 1
+V/audio_hw_primary( 5539): Parsing control ADCL Mux => ADC
+V/audio_hw_primary( 5539): Parsing control Sidetone HPF Switch => 0
+V/audio_hw_primary( 5539): Parsing control ADCL Mux => DMIC
+V/audio_hw_primary( 5539): Parsing control ADCL Mux => ADC
+V/audio_hw_primary( 5539): Parsing control ADCR Mux => DMIC
+V/audio_hw_primary( 5539): Parsing control ADCR Mux => ADC
+V/audio_hw_primary( 5539): Parsing control AIF3ADC Mux => 1
+V/audio_hw_primary( 5539): Parsing control HP Switch => 0
+V/audio_hw_primary( 5539): Parsing control SPK Switch => 0
+V/audio_hw_primary( 5539): Parsing control RCV Switch => 0
+V/audio_hw_primary( 5539): Parsing control LINE Switch => 0
+V/audio_hw_primary( 5539): Parsing control HDMI Switch => 0
+V/audio_hw_primary( 5539): Parsing control Main Mic Switch => 0
+V/audio_hw_primary( 5539): Parsing control Sub Mic Switch => 0
+V/audio_hw_primary( 5539): Parsing control Headset Mic Switch => 0
+V/audio_hw_primary( 5539): Parsing control FM In Switch => 0
+V/audio_hw_primary( 5539): Applying 76 element default route
+V/audio_hw_primary( 5539): Set 'AIF2DACL Source'.0 to 0
+V/audio_hw_primary( 5539): Set 'AIF2DACR Source'.0 to 0
+V/audio_hw_primary( 5539): Set 'AIF2ADCL Source'.0 to 0
+V/audio_hw_primary( 5539): Set 'AIF2ADCR Source'.0 to 1
+V/audio_hw_primary( 5539): Set 'DAC1 Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'DAC1 Switch'.1 to 1
+V/audio_hw_primary( 5539): Set 'IN1L ZC Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'IN1R ZC Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'IN2L ZC Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'IN2R ZC Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'Output ZC Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'Output ZC Switch'.1 to 0
+V/audio_hw_primary( 5539): Set 'Speaker ZC Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'Speaker ZC Switch'.1 to 0
+V/audio_hw_primary( 5539): Set 'Headphone ZC Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'Headphone ZC Switch'.1 to 0
+V/audio_hw_primary( 5539): Set 'DAC1L Mixer AIF1.1 Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'DAC1R Mixer AIF1.1 Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'DAC1 Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'DAC1 Switch'.1 to 1
+V/audio_hw_primary( 5539): Set 'AIF2DAC2L Mixer Left Sidetone Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'AIF2DAC2L Mixer Right Sidetone Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'AIF2DAC2R Mixer Left Sidetone Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'AIF2DAC2R Mixer Right Sidetone Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'DAC2 Left Sidetone Volume'.0 to 12
+V/audio_hw_primary( 5539): Set 'DAC2 Right Sidetone Volume'.0 to 12
+V/audio_hw_primary( 5539): Set 'DAC2 Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'DAC2 Switch'.1 to 1
+V/audio_hw_primary( 5539): Set 'Left Headphone Mux' to 'Mixer'
+V/audio_hw_primary( 5539): Set 'Right Headphone Mux' to 'Mixer'
+V/audio_hw_primary( 5539): Set 'SPKL DAC1 Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'SPKR DAC1 Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'SPKL Boost SPKL Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'SPKL Boost SPKR Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'SPKR Boost SPKL Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'SPKR Boost SPKR Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'Speaker Mixer Volume'.0 to 3
+V/audio_hw_primary( 5539): Set 'Speaker Mixer Volume'.1 to 3
+V/audio_hw_primary( 5539): Set 'Left Output Mixer DAC Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'Right Output Mixer DAC Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'Earpiece Mixer Left Output Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'Earpiece Mixer Right Output Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'Earpiece Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'LINEOUT2N Mixer Left Output Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'LINEOUT2P Mixer Right Output Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'LINEOUT1N Mixer Right Output Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'LINEOUT1P Mixer Left Output Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'AIF1ADC1L Mixer ADC/DMIC Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'AIF1ADC1R Mixer ADC/DMIC Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'IN1L PGA IN1LP Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'IN1L PGA IN1LN Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'MIXINL IN1L Volume'.0 to 1
+V/audio_hw_primary( 5539): Set 'IN1L Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'IN1R PGA IN1RP Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'IN1R PGA IN1RN Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'MIXINR IN1R Volume'.0 to 1
+V/audio_hw_primary( 5539): Set 'IN1R Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'IN2R PGA IN2RP Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'IN2R PGA IN2RN Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'MIXINR IN2R Volume'.0 to 1
+V/audio_hw_primary( 5539): Set 'IN2R Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'IN2L PGA IN2LP Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'IN2L PGA IN2LN Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'MIXINL IN2L Volume'.0 to 1
+V/audio_hw_primary( 5539): Set 'IN2L Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'AIF1ADC1L Mixer ADC/DMIC Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'AIF1ADC1R Mixer ADC/DMIC Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'ADCL Mux' to 'ADC'
+V/audio_hw_primary( 5539): Set 'Sidetone HPF Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'ADCL Mux' to 'DMIC'
+V/audio_hw_primary( 5539): Set 'ADCL Mux' to 'ADC'
+V/audio_hw_primary( 5539): Set 'ADCR Mux' to 'DMIC'
+V/audio_hw_primary( 5539): Set 'ADCR Mux' to 'ADC'
+V/audio_hw_primary( 5539): Set 'AIF3ADC Mux'.0 to 1
+V/audio_hw_primary( 5539): Set 'HP Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'SPK Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'RCV Switch'.0 to 0
+D/dalvikvm( 5536): Trying to load lib libjavacore.so 0x0
+V/audio_hw_primary( 5539): Set 'LINE Switch'.0 to 0
+D/dalvikvm( 5536): Added shared lib libjavacore.so 0x0
+V/audio_hw_primary( 5539): Set 'HDMI Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'Main Mic Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'Sub Mic Switch'.0 to 0
+D/dalvikvm( 5536): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 5536): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 5536): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+V/audio_hw_primary( 5539): Set 'Headset Mic Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'FM In Switch'.0 to 0
+I/audio_hw_primary( 5539): Allocating device speaker
+V/audio_hw_primary( 5539): Parsing control SPK Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 Volume => 96
+V/audio_hw_primary( 5539): Parsing control AIF1 Boost Volume => 0
+V/audio_hw_primary( 5539): Parsing control DAC1 Volume => 96
+V/audio_hw_primary( 5539): Parsing control Left Output Mixer DAC Volume => 7
+V/audio_hw_primary( 5539): Parsing control Right Output Mixer DAC Volume => 7
+V/audio_hw_primary( 5539): Parsing control SPKL DAC1 Volume => 1
+V/audio_hw_primary( 5539): Parsing control SPKR DAC1 Volume => 1
+V/audio_hw_primary( 5539): Parsing control Speaker Mixer Volume => 3
+V/audio_hw_primary( 5539): Parsing control Speaker Boost Volume => 6
+V/audio_hw_primary( 5539): Parsing control Speaker Volume => 57
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 EQ Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 EQ1 Volume => 9
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 EQ2 Volume => 7
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 EQ3 Volume => 10
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 EQ4 Volume => 13
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 EQ5 Volume => 12
+V/audio_hw_primary( 5539): 17 element on sequence
+V/audio_hw_primary( 5539): Parsing control SPK Switch => 0
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 Volume => 96
+V/audio_hw_primary( 5539): Parsing control AIF1 Boost Volume => 0
+V/audio_hw_primary( 5539): Parsing control DAC1 Volume => 96
+V/audio_hw_primary( 5539): Parsing control SPKL DAC1 Volume => 1
+V/audio_hw_primary( 5539): Parsing control SPKR DAC1 Volume => 1
+V/audio_hw_primary( 5539): Parsing control Speaker Mixer Volume => 0
+V/audio_hw_primary( 5539): Parsing control Speaker Volume => 0
+V/audio_hw_primary( 5539): Parsing control Speaker Boost Volume => 0
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 EQ Switch => 0
+V/audio_hw_primary( 5539): 10 element off sequence
+V/audio_hw_primary( 5539): Set 'SPK Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'AIF1DAC1 Volume'.0 to 96
+V/audio_hw_primary( 5539): Set 'AIF1DAC1 Volume'.1 to 96
+V/audio_hw_primary( 5539): Set 'AIF1 Boost Volume'.0 to 0
+V/audio_hw_primary( 5539): Set 'DAC1 Volume'.0 to 96
+V/audio_hw_primary( 5539): Set 'DAC1 Volume'.1 to 96
+V/audio_hw_primary( 5539): Set 'SPKL DAC1 Volume'.0 to 1
+V/audio_hw_primary( 5539): Set 'SPKR DAC1 Volume'.0 to 1
+V/audio_hw_primary( 5539): Set 'Speaker Mixer Volume'.0 to 0
+V/audio_hw_primary( 5539): Set 'Speaker Mixer Volume'.1 to 0
+V/audio_hw_primary( 5539): Set 'Speaker Volume'.0 to 0
+V/audio_hw_primary( 5539): Set 'Speaker Volume'.1 to 0
+V/audio_hw_primary( 5539): Set 'Speaker Boost Volume'.0 to 0
+V/audio_hw_primary( 5539): Set 'Speaker Boost Volume'.1 to 0
+V/audio_hw_primary( 5539): Set 'AIF1DAC1 EQ Switch'.0 to 0
+I/audio_hw_primary( 5539): Allocating device earpiece
+V/audio_hw_primary( 5539): Parsing control RCV Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 Volume => 96
+V/audio_hw_primary( 5539): Parsing control AIF1 Boost Volume => 0
+V/audio_hw_primary( 5539): Parsing control DAC1 Volume => 96
+V/audio_hw_primary( 5539): Parsing control Left Output Mixer DAC Volume => 7
+V/audio_hw_primary( 5539): Parsing control Right Output Mixer DAC Volume => 7
+V/audio_hw_primary( 5539): Parsing control Output Volume => 57
+V/audio_hw_primary( 5539): Parsing control Earpiece Volume => 1
+V/audio_hw_primary( 5539): Parsing control Speaker Mixer Volume => 1
+V/audio_hw_primary( 5539): 9 element on sequence
+V/audio_hw_primary( 5539): Parsing control RCV Switch => 0
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 Volume => 96
+V/audio_hw_primary( 5539): Parsing control AIF1 Boost Volume => 0
+V/audio_hw_primary( 5539): Parsing control DAC1 Volume => 96
+V/audio_hw_primary( 5539): Parsing control Left Output Mixer DAC Volume => 7
+V/audio_hw_primary( 5539): Parsing control Right Output Mixer DAC Volume => 7
+V/audio_hw_primary( 5539): Parsing control Output Volume => 57
+V/audio_hw_primary( 5539): Parsing control Earpiece Volume => 1
+V/audio_hw_primary( 5539): 8 element off sequence
+V/audio_hw_primary( 5539): Set 'RCV Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'AIF1DAC1 Volume'.0 to 96
+V/audio_hw_primary( 5539): Set 'AIF1DAC1 Volume'.1 to 96
+V/audio_hw_primary( 5539): Set 'AIF1 Boost Volume'.0 to 0
+V/audio_hw_primary( 5539): Set 'DAC1 Volume'.0 to 96
+V/audio_hw_primary( 5539): Set 'DAC1 Volume'.1 to 96
+V/audio_hw_primary( 5539): Set 'Left Output Mixer DAC Volume'.0 to 7
+V/audio_hw_primary( 5539): Set 'Right Output Mixer DAC Volume'.0 to 7
+V/audio_hw_primary( 5539): Set 'Output Volume'.0 to 57
+V/audio_hw_primary( 5539): Set 'Output Volume'.1 to 57
+V/audio_hw_primary( 5539): Set 'Earpiece Volume'.0 to 1
+I/audio_hw_primary( 5539): Allocating device headphone
+V/audio_hw_primary( 5539): Parsing control HP Switch => 1
+V/audio_hw_primary( 5539): Parsing control Headphone Volume => 50
+V/audio_hw_primary( 5539): Parsing control Headphone ZC Switch => 0
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 Volume => 96
+V/audio_hw_primary( 5539): Parsing control AIF1 Boost Volume => 0
+V/audio_hw_primary( 5539): Parsing control DAC1 Volume => 96
+V/audio_hw_primary( 5539): Parsing control Left Output Mixer DAC Volume => 7
+V/audio_hw_primary( 5539): Parsing control Right Output Mixer DAC Volume => 7
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 EQ Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 EQ1 Volume => 16
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 EQ2 Volume => 14
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 EQ3 Volume => 12
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 EQ4 Volume => 14
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 EQ5 Volume => 16
+V/audio_hw_primary( 5539): 14 element on sequence
+V/audio_hw_primary( 5539): Parsing control HP Switch => 0
+V/audio_hw_primary( 5539): Parsing control AIF1DAC1 EQ Switch => 0
+V/audio_hw_primary( 5539): 2 element off sequence
+V/audio_hw_primary( 5539): Set 'HP Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'AIF1DAC1 EQ Switch'.0 to 0
+I/audio_hw_primary( 5539): Allocating device sco-out
+V/audio_hw_primary( 5539): Parsing control AIF3ADC Mux => 1
+V/audio_hw_primary( 5539): Parsing control AIF2DAC2L Mixer AIF1.1 Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF2DAC2R Mixer AIF1.1 Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF2DAC Volume => 96
+V/audio_hw_primary( 5539): Parsing control DAC2 Volume => 96
+V/audio_hw_primary( 5539): Parsing control AIF2ADC Volume => 96
+V/audio_hw_primary( 5539): Parsing control Speaker Mixer Volume => 1
+V/audio_hw_primary( 5539): 7 element on sequence
+V/audio_hw_primary( 5539): Parsing control AIF2DAC2L Mixer AIF1.1 Switch => 0
+V/audio_hw_primary( 5539): Parsing control AIF2DAC2R Mixer AIF1.1 Switch => 0
+V/audio_hw_primary( 5539): 2 element off sequence
+V/audio_hw_primary( 5539): Set 'AIF2DAC2L Mixer AIF1.1 Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'AIF2DAC2R Mixer AIF1.1 Switch'.0 to 0
+I/audio_hw_primary( 5539): Allocating device analogue-dock
+V/audio_hw_primary( 5539): Parsing control LINEOUT2N Switch => 1
+V/audio_hw_primary( 5539): Parsing control LINEOUT2P Switch => 1
+V/audio_hw_primary( 5539): Parsing control LINEOUT2N Mixer Left Output Switch => 1
+V/audio_hw_primary( 5539): Parsing control LINEOUT2N Mixer Right Output Switch => 0
+V/audio_hw_primary( 5539): Parsing control LINEOUT2P Mixer Right Output Switch => 1
+V/audio_hw_primary( 5539): Parsing control LINE Switch => 1
+V/audio_hw_primary( 5539): Parsing control LineoutSwitch Mode => 1
+V/audio_hw_primary( 5539): Parsing control Left Output Mixer DAC Volume => 7
+V/audio_hw_primary( 5539): Parsing control Right Output Mixer DAC Volume => 7
+V/audio_hw_primary( 5539): 9 element on sequence
+V/audio_hw_primary( 5539): Parsing control LineoutSwitch Mode => 0
+V/audio_hw_primary( 5539): Parsing control LINEOUT2N Switch => 0
+V/audio_hw_primary( 5539): Parsing control LINEOUT2P Switch => 0
+V/audio_hw_primary( 5539): Parsing control LINE Switch => 0
+V/audio_hw_primary( 5539): 4 element off sequence
+V/audio_hw_primary( 5539): Set 'LineoutSwitch Mode'.0 to 0
+V/audio_hw_primary( 5539): Set 'LINEOUT2N Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'LINEOUT2P Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'LINE Switch'.0 to 0
+I/audio_hw_primary( 5539): Allocating device digital-dock
+V/audio_hw_primary( 5539): Parsing control LINEOUT2N Switch => 1
+V/audio_hw_primary( 5539): Parsing control LINEOUT2P Switch => 1
+V/audio_hw_primary( 5539): Parsing control LINEOUT2N Mixer Left Output Switch => 1
+V/audio_hw_primary( 5539): Parsing control LINEOUT2N Mixer Right Output Switch => 0
+V/audio_hw_primary( 5539): Parsing control LINEOUT2P Mixer Right Output Switch => 1
+V/audio_hw_primary( 5539): Parsing control LINE Switch => 1
+V/audio_hw_primary( 5539): Parsing control LineoutSwitch Mode => 1
+V/audio_hw_primary( 5539): Parsing control Left Output Mixer DAC Volume => 7
+V/audio_hw_primary( 5539): Parsing control Right Output Mixer DAC Volume => 7
+V/audio_hw_primary( 5539): 9 element on sequence
+V/audio_hw_primary( 5539): Parsing control LineoutSwitch Mode => 0
+V/audio_hw_primary( 5539): Parsing control LINEOUT2N Switch => 0
+V/audio_hw_primary( 5539): Parsing control LINEOUT2P Switch => 0
+V/audio_hw_primary( 5539): Parsing control LINE Switch => 0
+V/audio_hw_primary( 5539): 4 element off sequence
+V/audio_hw_primary( 5539): Set 'LineoutSwitch Mode'.0 to 0
+V/audio_hw_primary( 5539): Set 'LINEOUT2N Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'LINEOUT2P Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'LINE Switch'.0 to 0
+I/audio_hw_primary( 5539): Allocating device aux-digital
+V/audio_hw_primary( 5539): Parsing control LINEOUT1N Switch => 1
+V/audio_hw_primary( 5539): Parsing control LINEOUT1P Switch => 1
+V/audio_hw_primary( 5539): Parsing control HDMI Switch => 1
+V/audio_hw_primary( 5539): 3 element on sequence
+V/audio_hw_primary( 5539): Parsing control LINEOUT1N Switch => 0
+V/audio_hw_primary( 5539): Parsing control LINEOUT1P Switch => 0
+V/audio_hw_primary( 5539): Parsing control HDMI Switch => 0
+V/audio_hw_primary( 5539): 3 element off sequence
+V/audio_hw_primary( 5539): Set 'LINEOUT1N Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'LINEOUT1P Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'HDMI Switch'.0 to 0
+I/audio_hw_primary( 5539): Allocating device builtin-mic
+V/audio_hw_primary( 5539): Parsing control Main Mic Switch => 1
+V/audio_hw_primary( 5539): Parsing control IN1L Volume => 28
+V/audio_hw_primary( 5539): Parsing control MIXINL IN1L Switch => 1
+V/audio_hw_primary( 5539): Parsing control MIXINL IN1L Volume => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADCL Source => 0
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1 HPF Mode => 0
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1 HPF Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1 Volume => 96
+V/audio_hw_primary( 5539): 8 element on sequence
+V/audio_hw_primary( 5539): Parsing control Main Mic Switch => 0
+V/audio_hw_primary( 5539): Parsing control MIXINL IN1L Switch => 0
+V/audio_hw_primary( 5539): Parsing control MIXINL IN1L Volume => 0
+V/audio_hw_primary( 5539): Parsing control IN1L Volume => 10
+V/audio_hw_primary( 5539): 4 element off sequence
+V/audio_hw_primary( 5539): Set 'Main Mic Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'MIXINL IN1L Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'MIXINL IN1L Volume'.0 to 0
+V/audio_hw_primary( 5539): Set 'IN1L Volume'.0 to 10
+I/audio_hw_primary( 5539): Allocating device back-mic
+V/audio_hw_primary( 5539): Parsing control Sub Mic Switch => 1
+V/audio_hw_primary( 5539): Parsing control IN1R Volume => 28
+V/audio_hw_primary( 5539): Parsing control MIXINR IN1R Switch => 1
+V/audio_hw_primary( 5539): Parsing control MIXINR IN1R Volume => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADCR Source => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1 HPF Mode => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1 HPF Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1 Volume => 96
+V/audio_hw_primary( 5539): 8 element on sequence
+V/audio_hw_primary( 5539): Parsing control Sub Mic Switch => 0
+V/audio_hw_primary( 5539): Parsing control MIXINR IN1R Switch => 0
+V/audio_hw_primary( 5539): Parsing control IN1R Volume => 10
+V/audio_hw_primary( 5539): 3 element off sequence
+V/audio_hw_primary( 5539): Set 'Sub Mic Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'MIXINR IN1R Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'IN1R Volume'.0 to 10
+I/audio_hw_primary( 5539): Allocating device headset-in
+V/audio_hw_primary( 5539): Parsing control MIXINL IN1L Switch => 0
+V/audio_hw_primary( 5539): Parsing control Headset Mic Switch => 1
+V/audio_hw_primary( 5539): Parsing control IN2L Volume => 22
+V/audio_hw_primary( 5539): Parsing control MIXINL IN2L Switch => 1
+V/audio_hw_primary( 5539): Parsing control MIXINL IN2L Volume => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1 HPF Mode => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1 HPF Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1 Volume => 96
+V/audio_hw_primary( 5539): Parsing control AIF1ADCL Source => 0
+V/audio_hw_primary( 5539): Parsing control AIF1ADCR Source => 0
+V/audio_hw_primary( 5539): 10 element on sequence
+V/audio_hw_primary( 5539): Parsing control Headset Mic Switch => 0
+V/audio_hw_primary( 5539): Parsing control IN2L Volume => 10
+V/audio_hw_primary( 5539): Parsing control MIXINL IN2L Switch => 0
+V/audio_hw_primary( 5539): Parsing control MIXINL IN2L Volume => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1 HPF Mode => 0
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1 HPF Switch => 0
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1 Volume => 96
+V/audio_hw_primary( 5539): 7 element off sequence
+V/audio_hw_primary( 5539): Set 'Headset Mic Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'IN2L Volume'.0 to 10
+V/audio_hw_primary( 5539): Set 'MIXINL IN2L Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'MIXINL IN2L Volume'.0 to 1
+V/audio_hw_primary( 5539): Set 'AIF1ADC1 HPF Mode'.0 to 0
+V/audio_hw_primary( 5539): Set 'AIF1ADC1 HPF Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'AIF1ADC1 HPF Switch'.1 to 0
+V/audio_hw_primary( 5539): Set 'AIF1ADC1 Volume'.0 to 96
+V/audio_hw_primary( 5539): Set 'AIF1ADC1 Volume'.1 to 96
+I/audio_hw_primary( 5539): Allocating device sco-in
+V/audio_hw_primary( 5539): Parsing control AIF2ADC Mux => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1R Mixer AIF2 Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1L Mixer AIF2 Switch => 1
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1 Volume => 96
+V/audio_hw_primary( 5539): Parsing control AIF2DAC Volume => 96
+V/audio_hw_primary( 5539): 5 element on sequence
+V/audio_hw_primary( 5539): Parsing control AIF2ADC Mux => 0
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1R Mixer AIF2 Switch => 0
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1L Mixer AIF2 Switch => 0
+V/audio_hw_primary( 5539): Parsing control AIF1ADC1 Volume => 96
+V/audio_hw_primary( 5539): Parsing control AIF2DAC Volume => 96
+V/audio_hw_primary( 5539): 5 element off sequence
+V/audio_hw_primary( 5539): Set 'AIF2ADC Mux'.0 to 0
+V/audio_hw_primary( 5539): Set 'AIF1ADC1R Mixer AIF2 Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'AIF1ADC1L Mixer AIF2 Switch'.0 to 0
+V/audio_hw_primary( 5539): Set 'AIF1ADC1 Volume'.0 to 96
+V/audio_hw_primary( 5539): Set 'AIF1ADC1 Volume'.1 to 96
+V/audio_hw_primary( 5539): Set 'AIF2DAC Volume'.0 to 96
+V/audio_hw_primary( 5539): Set 'AIF2DAC Volume'.1 to 96
+V/audio_hw_primary( 5539): Parsing control DAC1L Mixer AIF1.1 Switch => 1
+V/audio_hw_primary( 5539): Parsing control DAC1L Mixer AIF1.1 Switch => 1
+V/audio_hw_primary( 5539): Applying 2 element default route
+V/audio_hw_primary( 5539): Set 'DAC1L Mixer AIF1.1 Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'DAC1L Mixer AIF1.1 Switch'.0 to 1
+V/audio_hw_primary( 5539): Parsing control MIXINL Output Record Volume => 0
+V/audio_hw_primary( 5539): Parsing control MIXINR Output Record Volume => 0
+V/audio_hw_primary( 5539): Applying 2 element default route
+V/audio_hw_primary( 5539): Set 'MIXINL Output Record Volume'.0 to 0
+V/audio_hw_primary( 5539): Set 'MIXINR Output Record Volume'.0 to 0
+V/audio_hw_primary( 5539): Changing output device 0 => 2
+V/audio_hw_primary( 5539): Changing input device 0 => 0
+V/audio_hw_primary( 5539): Set 'SPK Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'AIF1DAC1 Volume'.0 to 96
+V/audio_hw_primary( 5539): Set 'AIF1DAC1 Volume'.1 to 96
+V/audio_hw_primary( 5539): Set 'AIF1 Boost Volume'.0 to 0
+V/audio_hw_primary( 5539): Set 'DAC1 Volume'.0 to 96
+V/audio_hw_primary( 5539): Set 'DAC1 Volume'.1 to 96
+V/audio_hw_primary( 5539): Set 'Left Output Mixer DAC Volume'.0 to 7
+V/audio_hw_primary( 5539): Set 'Right Output Mixer DAC Volume'.0 to 7
+V/audio_hw_primary( 5539): Set 'SPKL DAC1 Volume'.0 to 1
+V/audio_hw_primary( 5539): Set 'SPKR DAC1 Volume'.0 to 1
+V/audio_hw_primary( 5539): Set 'Speaker Mixer Volume'.0 to 3
+V/audio_hw_primary( 5539): Set 'Speaker Mixer Volume'.1 to 3
+V/audio_hw_primary( 5539): Set 'Speaker Boost Volume'.0 to 6
+V/audio_hw_primary( 5539): Set 'Speaker Boost Volume'.1 to 6
+V/audio_hw_primary( 5539): Set 'Speaker Volume'.0 to 57
+V/audio_hw_primary( 5539): Set 'Speaker Volume'.1 to 57
+V/audio_hw_primary( 5539): Set 'AIF1DAC1 EQ Switch'.0 to 1
+V/audio_hw_primary( 5539): Set 'AIF1DAC1 EQ1 Volume'.0 to 9
+V/audio_hw_primary( 5539): Set 'AIF1DAC1 EQ2 Volume'.0 to 7
+V/audio_hw_primary( 5539): Set 'AIF1DAC1 EQ3 Volume'.0 to 10
+V/audio_hw_primary( 5539): Set 'AIF1DAC1 EQ4 Volume'.0 to 13
+V/audio_hw_primary( 5539): Set 'AIF1DAC1 EQ5 Volume'.0 to 12
+I/AudioFlinger( 5539): loadHwModule() Loaded primary audio interface from M0 audio HW HAL (audio) handle 1
+I/AudioFlinger( 5539): HAL output buffer size 1056 frames, normal mix buffer size 1056 frames
+I/AudioMixer( 5539): found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+I/AudioFlinger( 5539): Using module 1 has the primary audio interface
+D/dalvikvm( 5536): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/AudioPolicyManagerBase( 5539): setOutputDevice() changing device from (2) to (2)         force (1) delayMs (0) on Output (2)
+I/AudioFlinger( 5539): AudioFlinger's thread 0x40b65008 ready to run
+W/AudioFlinger( 5539): Thread AudioOut_2 cannot connect to the power manager service
+W/AudioFlinger( 5539): Thread AudioOut_2 cannot connect to the power manager service
+W/AudioFlinger( 5539): Thread AudioOut_2 cannot connect to the power manager service
+E/AudioFlinger( 5539): no wake lock to update!
+I/audio_a2dp_hw( 5539): adev_open:  adev_open in A2dp_hw module
+I/AudioFlinger( 5539): loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 4
+I/AudioFlinger( 5539): loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 5
+I/r_submix( 5539): adev_open(name=audio_hw_if)
+I/r_submix( 5539): adev_init_check()
+I/AudioFlinger( 5539): loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 6
+I/AudioPolicyService( 5539): Loaded audio policy from LEGACY Audio Policy HAL (audio_policy)
+I/ServiceManager( 1894): service 'UBCService' died
+E/memtrack( 5536): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 5536): failed to load memtrack module: -2
+I/SamplingProfilerIntegration( 5536): Profiling disabled.
+I/Zygote  ( 5536): Preloading classes...
+D/idmap   ( 5650): error: no read access to /vendor/overlay: No such file or directory
+E/cutils-trace( 5536): Error opening trace file: No such file or directory (2)
+D/TextLayoutCache( 5536): Using debug level = 0 - Debug Enabled = 0
+I/dalvikvm( 5536): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+D/MtpDeviceJNI( 5536): register_android_mtp_MtpDevice
+I/dalvikvm( 5536): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+I/dalvikvm( 5536): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+I/dalvikvm( 5536): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+I/LibraryLoader( 5536): Loading: webviewchromium
+V/NatController( 5537): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController( 5537): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+V/NatController( 5537): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+V/NatController( 5537): runCmd(/system/bin/ip route flush cache) res=0
+V/NatController( 5537): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=0
+V/NatController( 5537): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=0
+V/NatController( 5537): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+I/LibraryLoader( 5536): Time to load native libraries: 97 ms (timestamps 873-970)
+I/LibraryLoader( 5536): Expected native library version number "",actual native library version number ""
+W/Zygote  ( 5536): Class not found for preloading: java.lang.UnsafeByteSequence
+I/wpa_supplicant( 4699): CTRL_IFACE monitor[0]: 111 - Connection refused
+I/wpa_supplicant( 4699): CTRL_IFACE monitor[0]: 111 - Connection refused
+I/wpa_supplicant( 4699): CTRL_IFACE monitor[0]: 111 - Connection refused
+I/wpa_supplicant( 4699): CTRL_IFACE monitor[0]: 111 - Connection refused
+I/wpa_supplicant( 4699): CTRL_IFACE monitor[0]: 111 - Connection refused
+I/wpa_supplicant( 4699): CTRL_IFACE monitor[0]: 111 - Connection refused
+I/wpa_supplicant( 4699): CTRL_IFACE monitor[0]: 111 - Connection refused
+I/System  ( 5536): Loaded time zone names for "" in 65ms (61ms in ICU)
+I/System  ( 5536): Loaded time zone names for "en_US" in 40ms (35ms in ICU)
+I/System  ( 5536): Loaded time zone names for "zh_CN" in 45ms (41ms in ICU)
+I/Zygote  ( 5536): ...preloaded 2777 classes in 1473ms.
+D/MDnsDS  ( 5537): MDnsSdListener::Hander starting up
+D/MDnsDS  ( 5537): MDnsSdListener starting to monitor
+D/MDnsDS  ( 5537): Going to poll with pollCount 1
+I/dalvikvm( 5536): System server process 5789 has been created
+I/Zygote  ( 5536): Accepting command socket connections
+D/SensorService( 5789): nuSensorService starting...
+I/SystemServer( 5789): Entered the Android system server!
+I/Sensors ( 5789): getName:light_sensor name = CM36651.
+I/Sensors ( 5789): getName:proximity_sensor name = CM36651.
+D/AkmSensor( 5789): akm_init: is called
+I/AkmSensor( 5789): open_accelerometer
+E/AkmSensor( 5789): ReadAK8975FUSEROM: asa(dec)=163,163,173
+D/AkmSensor( 5789): thread_main: is called
+I/iNemoSensor( 5789): opened the gyro input event node
+D/iNemoSensor( 5789): Found gyro_sensor at /dev/input/event4
+I/iNemoSensor( 5789): Found enable path : /sys/class/input/event4/device/enable, poll_delay path : /sys/class/input/event4/device/poll_delay
+D/Sensors ( 5789): SensorBase:'compass_sensor' input event : /dev/input/event10
+I/iNemoSensor( 5789): iNemoSensor, 176, opened the compass input event node, cnt = 3, data_fd = 46
+D/AkmSensor( 5789): akm_disable_sensor: Orientation is disabled. (accel = 0)
+I/AkmSensor( 5789): enable_accelerometer, mEnabled = 0, enable = 0
+I/iNemoEngineAPI( 5789): Lib version: v1.02.androidheadway.opt3 (25)
+I/Sensors ( 5789): getName:barometer_sensor name = LPS331.
+I/Sensors ( 5789): PressTempSensor::PressTempSensor prs device_sysfs_path:(/sys/class/input/event7/device/)
+D/Sensors ( 5789): PressTempSensor:File /sys/class/input/event7/device/compensation_param Opened Successfully !!
+D/Sensors ( 5789): PressTempSensor:Acquired Pressure Compansation Values: TSL = 0x00000000, TSH = 0x00000001, TCV1 = 0x00000364, TCV2 = 0x00000321, TCV3 = 0x00000321, TCS1 = 0x000001bb, TCS2 = 0x000001b5, TCS3 = 0x000001b5, DGAIN = 0x0000d66a, deltaT1 = 0x00000003, deltaT2 = 0x00000000, deltaT3 = 0x00000000, testSetup = 0x00000000
+I/Sensors ( 5789): PressTempSensor::PressTempSensor press_device_sysfs_path:(/sys/class/input/event7/device/compensation_param)
+D/Sensors ( 5789): PressTempSensor::enable: handle: 9, enable: 0
+D/Sensors ( 5789): PressTempSensor: mEnabled 0, enabled: 0
+D/Sensors ( 5789): PressTempSensor::enable: handle: 10, enable: 0
+D/Sensors ( 5789): PressTempSensor: mEnabled 0, enabled: 0
+I/iNemoSensor( 5789): enable(): handle(0), en(0), what(0)
+D/iNemoSensor( 5789): enable(): MASK_ACC (0) MASK_MAG (0) MASK_GYR (0)
+D/iNemoSensor( 5789): enable(): mEnAcc(0) mEnMag(0) mEnGyr(0)
+I/iNemoSensor( 5789): enable(): handle(1), en(0), what(2)
+D/iNemoSensor( 5789): enable(): MASK_ACC (0) MASK_MAG (0) MASK_GYR (0)
+D/iNemoSensor( 5789): enable(): mEnAcc(0) mEnMag(0) mEnGyr(0)
+I/iNemoSensor( 5789): enable(): handle(2), en(0), what(3)
+D/iNemoSensor( 5789): enable(): MASK_ACC (0) MASK_MAG (0) MASK_GYR (0)
+D/iNemoSensor( 5789): enable(): mEnAcc(0) mEnMag(0) mEnGyr(0)
+I/iNemoSensor( 5789): enable(): handle(5), en(0), what(1)
+D/iNemoSensor( 5789): enable(): MASK_ACC (0) MASK_MAG (0) MASK_GYR (0)
+D/iNemoSensor( 5789): enable(): mEnAcc(0) mEnMag(0) mEnGyr(0)
+I/iNemoSensor( 5789): enable(): handle(6), en(0), what(4)
+D/iNemoSensor( 5789): enable(): MASK_ACC (0) MASK_MAG (0) MASK_GYR (0)
+D/iNemoSensor( 5789): enable(): mEnAcc(0) mEnMag(0) mEnGyr(0)
+I/iNemoSensor( 5789): enable(): handle(7), en(0), what(5)
+D/iNemoSensor( 5789): enable(): MASK_ACC (0) MASK_MAG (0) MASK_GYR (0)
+D/iNemoSensor( 5789): enable(): mEnAcc(0) mEnMag(0) mEnGyr(0)
+I/iNemoSensor( 5789): enable(): handle(8), en(0), what(6)
+D/iNemoSensor( 5789): enable(): MASK_ACC (0) MASK_MAG (0) MASK_GYR (0)
+D/iNemoSensor( 5789): enable(): mEnAcc(0) mEnMag(0) mEnGyr(0)
+D/Sensors ( 5789): PressTempSensor::enable: handle: 9, enable: 0
+D/Sensors ( 5789): PressTempSensor: mEnabled 0, enabled: 0
+I/SensorService( 5789): LSM330DLC 3-axis Accelerometer
+I/SensorService( 5789): AK8975C 3-axis Magnetic field sensor
+I/SensorService( 5789): iNemoEngine Orientation sensor
+I/SensorService( 5789): CM36651 Light sensor
+I/SensorService( 5789): CM36651 Proximity sensor
+I/SensorService( 5789): LSM330DLC Gyroscope sensor
+I/SensorService( 5789): iNemoEngine Gravity sensor
+I/SensorService( 5789): iNemoEngine Linear Acceleration sensor
+I/SensorService( 5789): iNemoEngine Rotation_Vector sensor
+I/SensorService( 5789): LPS331AP Pressure Sensor
+D/SensorService( 5789): Max socket buffer size 262144
+D/SensorService( 5789): nuSensorService thread starting...
+I/SystemServer( 5789): Waiting for installd to be ready.
+I/installd( 1908): new connection
+I/SystemServer( 5789): Enabled StrictMode logging for WM Looper
+I/Installer( 5789): connecting...
+I/SystemServer( 5789): Power Manager
+I/SystemServer( 5789): Activity Manager
+I/ActivityManager( 5789): Memory class: 64
+W/UsageStats( 5789): Usage stats version changed; dropping
+I/UiThread( 5789): Enabled StrictMode logging for UI thread
+I/IntentFirewall( 5789): Read new rules (A:0 B:0 S:0)
+I/ActivityManager( 5789): Enabled StrictMode logging for AThread's Looper
+I/SystemServer( 5789): Display Manager
+I/SystemServer( 5789): Telephony Registry
+I/DisplayManagerService( 5789): Display device added: DisplayDeviceInfo{"内置屏幕": 720 x 1280, 60.506 fps, density 320, 304.8 x 306.71698 dpi, touch INTERNAL, rotation 0, type BUILT_IN, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+I/SystemServer( 5789): Scheduling Policy
+I/SystemServer( 5789): Package Manager
